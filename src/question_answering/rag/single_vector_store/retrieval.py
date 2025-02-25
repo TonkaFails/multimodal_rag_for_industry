@@ -6,9 +6,7 @@ from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
 from langchain_experimental.open_clip import OpenCLIPEmbeddings
-from langchain_openai import AzureOpenAIEmbeddings
 from langchain.storage import LocalFileStore
-from utils.azure_config import get_azure_config
 from rag_env import IMAGES_DIR
 from typing import List
 
@@ -31,25 +29,12 @@ class SummaryStoreAndRetriever:
     def __init__(self, embedding_model, store_path=None):
         
         # embed using openai embedding model
-        if embedding_model == 'openai':
-            print("Using text-embedding-3-small")
-            azure_embedding_config = get_azure_config()['text_embedding_3']
-            self.embeddings = AzureOpenAIEmbeddings(model=azure_embedding_config["model_version"],
-                                                    azure_endpoint=azure_embedding_config["openai_endpoint"],
-                                                    openai_api_version=azure_embedding_config["openai_api_version"],
-                                                    openai_api_key=os.getenv("AZURE_OPENAI_API_KEY_EMBEDDING"),
-                                                    chunk_size=64,
-                                                    show_progress_bar=True
-                                                    )
-        # embed with BGE embeddings
-        else:
-            print("Using BGE embeddings")
-            model_name = "BAAI/bge-m3"
-            model_kwargs = {"device": "cuda"}
-            encode_kwargs = {"normalize_embeddings": True, "batch_size": 1, "show_progress_bar":True}
-            self.embeddings = HuggingFaceBgeEmbeddings(
-                model_name=model_name, model_kwargs=model_kwargs, encode_kwargs=encode_kwargs
-                )
+        
+        print("Using BGE embeddings")
+        model_name = "BAAI/bge-m3"
+        model_kwargs = {"device": "mps"}
+        encode_kwargs = {"normalize_embeddings": True, "batch_size": 1, "show_progress_bar":True}
+        self.embeddings = HuggingFaceBgeEmbeddings(model_name=model_name, model_kwargs=model_kwargs, encode_kwargs=encode_kwargs)
 
         self.store_path = store_path
         vectorstore_dir = os.path.join(self.store_path, f"{os.path.basename(self.store_path)}_vectorstore_{embedding_model}")
@@ -136,13 +121,16 @@ class ClipRetriever:
         )
 
         results = self.vectorstore.get(include=["embeddings", "documents", "metadatas"])
-        self.is_new_vectorstore = bool(results["embeddings"])
 
+        self.is_new_vectorstore = True
+        '''
+        self.is_new_vectorstore = bool(results["embeddings"])
         if self.is_new_vectorstore:
             print(f"Vectorstore at path {vectorstore_dir} already exists")
 
         else:
             print(f"Creating new vectorstore at path {vectorstore_dir}")
+        '''
 
         # Make retriever
         self.retriever = self.vectorstore.as_retriever()

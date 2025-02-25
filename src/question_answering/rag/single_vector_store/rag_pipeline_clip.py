@@ -1,11 +1,13 @@
 import pandas as pd
 import logging
 import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..")))
 from question_answering.rag.single_vector_store.rag_chain import MultimodalRAGChain
 from question_answering.rag.single_vector_store.retrieval import ClipRetriever
-from langchain_openai import AzureChatOpenAI
 from typing import List
-from utils.azure_config import get_azure_config
 from utils.model_loading_and_prompting.llava import load_llava_model
 from rag_env import IMAGES_DIR, INPUT_DATA, MODEL_TYPE, VECTORSTORE_PATH_CLIP_SINGLE
 
@@ -27,24 +29,9 @@ class MultimodalRAGPipelineClip:
         rag_chain (MultimodalRAGChain): RAG chain performing the QA task.
     """
     def __init__(self, model_type, store_path):
-        
-        config = get_azure_config()
-        
-        if model_type in config:
-            print("Using Azure model")
-            azure_llm_config = config[model_type]
-            self.model = AzureChatOpenAI(
-                openai_api_version=azure_llm_config["openai_api_version"],
-                azure_endpoint=azure_llm_config["openai_endpoint"],
-                azure_deployment=azure_llm_config["deployment_name"],
-                model=azure_llm_config["model_version"],
-                api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-                max_tokens=400)
-            self.tokenizer = None
-            
-        else:
-            print("Using LLaVA model")
-            self.model, self.tokenizer = load_llava_model("llava-hf/llava-v1.6-mistral-7b-hf")
+           
+        print("Using LLaVA model")
+        self.model, self.tokenizer = load_llava_model("llava-hf/llava-v1.6-mistral-7b-hf", "mps")
 
         # self.text_summarizer = TextSummarizer(model_type="gpt4", cache_path=TEXT_SUMMARIES_CACHE_DIR)
         self.clip_retriever = ClipRetriever(vectorstore_dir=store_path)
@@ -72,8 +59,8 @@ def main():
     pipeline = MultimodalRAGPipelineClip(model_type=MODEL_TYPE, store_path=VECTORSTORE_PATH_CLIP_SINGLE)
     texts_df = pipeline.load_data(INPUT_DATA)
     pipeline.index_data(texts_df=texts_df, images_dir=IMAGES_DIR)
-
-    question = "I want to change the behaviour of the stations to continue, if a moderate error occurrs. How can I do this?"
+    
+    question = "Where is the red wire?"
     answer = pipeline.answer_question(question)
     relevant_docs = pipeline.rag_chain.retrieved_docs  
     print("Retrieved images:", len(relevant_docs["images"]), ", Retrieved texts:", len(relevant_docs["texts"]))  

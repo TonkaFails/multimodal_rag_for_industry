@@ -5,7 +5,7 @@ This toy data will not lead to good results.
 """
 
 # model to use for answer synthesis and image summarization. ('gpt4_vision', otherwise LLaVA will be used)
-MODEL_TYPE  = 'gpt4_vision'
+MODEL_TYPE  = 'llava'
 # text embedding model, set to 'openai' to use text-embeding-3-small, otherwise bge-m3 will be used
 EMBEDDING_MODEL_TYPE = "openai"
 
@@ -13,7 +13,7 @@ EMBEDDING_MODEL_TYPE = "openai"
 REFERENCE_QA = r"../../sample_data/reference_qa.xlsx"
 
 # directory containing the pdf files from which to extract texts and images
-MANUALS_DIR = "YOUR_PATH_HERE"
+MANUALS_DIR = "/Users/anton/bachelor/test-anweisungen"
 
 # parquet file where extracted texts and image bytes are stored
 INPUT_DATA = r'../../sample_data/extracted_texts_and_imgs.parquet'
@@ -22,7 +22,7 @@ INPUT_DATA = r'../../sample_data/extracted_texts_and_imgs.parquet'
 IMAGES_DIR = r"../../sample_data/images"
 
 # directories containing csv files with text summaries or image summaries
-IMG_SUMMARIES_CACHE_DIR = r"../../sample_data/image_summaries_test"
+IMG_SUMMARIES_CACHE_DIR = r"../../sample_data/image_summaries"
 TEXT_SUMMARIES_CACHE_DIR = r"../../sample_data/text_summaries"
 
 # directories where vector stores are saved

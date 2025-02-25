@@ -5,9 +5,11 @@ import pandas as pd
 import sys
 import time
 from typing import List, Any
-from data_extraction.context_reduction import get_token_count
-from rag_env import IMAGES_DIR, INPUT_DATA, MANUALS_DIR
+from context_reduction import get_token_count
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils.utils_logging import utils_logger
+from rag_env import IMAGES_DIR, INPUT_DATA, MANUALS_DIR
 
 
 sys.setrecursionlimit(5000)

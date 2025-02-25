@@ -1,13 +1,13 @@
 import os  
 import pandas as pd
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from single_vector_store.rag_pipeline_clip import MultimodalRAGPipelineClip
 from separate_vector_stores.dual_rag_pipeline_clip import DualMultimodalRAGPipelineClip
 from single_vector_store.rag_pipeline_summaries import MultimodalRAGPipelineSummaries
 from separate_vector_stores.dual_rag_pipeline_summaries import DualMultimodalRAGPipelineSummaries
 from rag_env import *
 
-
-AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
 
 
 def write_to_df(df, user_query, reference_answer, generated_answer, context, image, output_file):
@@ -116,7 +116,7 @@ if __name__ == "__main__":
                                                             vectorstore_path=VECTORSTORE_PATH_IMAGE_ONLY,
                                                             images_dir=IMAGES_DIR, reference_qa=REFERENCE_QA,
                                                             output_dir=RAG_OUTPUT_DIR)
-    
+    '''
     rag_results_clip_dual = run_pipeline_with_clip_dual(model=MODEL_TYPE, input_df=INPUT_DATA,
                                                         vectorstore_path=VECTORSTORE_PATH_IMAGE_ONLY,
                                                         images_dir=IMAGES_DIR, reference_qa=REFERENCE_QA, 
@@ -132,3 +132,4 @@ if __name__ == "__main__":
                                                                     embedding_model=EMBEDDING_MODEL_TYPE, input_df=INPUT_DATA,
                                                                     reference_qa=REFERENCE_QA, output_dir=RAG_OUTPUT_DIR,
                                                                     img_summaries_dir=IMG_SUMMARIES_CACHE_DIR)
+    '''

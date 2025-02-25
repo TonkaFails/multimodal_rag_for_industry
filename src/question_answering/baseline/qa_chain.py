@@ -58,7 +58,7 @@ class QAChain:
     def call_llava(self, inputs):
         
         prompt = inputs['prompt']
-        ans = llava_call(prompt, self.model, self.tokenizer, device="cuda")
+        ans = llava_call(prompt, self.model, self.tokenizer, device="mps")
         return ans
 
 

@@ -81,7 +81,7 @@ class BaseEvaluator(EvaluatorInterface):
         
         prompt = inputs['prompt']
         image = inputs.get('image', None)
-        ans = llava_call(prompt, self.model, self.tokenizer, device="cuda", image=image)
+        ans = llava_call(prompt, self.model, self.tokenizer, device="mps", image=image)
         return ans
         
 

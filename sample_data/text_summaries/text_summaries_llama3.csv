@@ -1,0 +1,3743 @@
+text,text_summary
+"s 
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 1 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+Author: C.Schultheiss 
+Dept.: M TEC W 
+ 
+Product group: HV 
+Assembly: Coil 
+Longitudinal winding > 690 V  to  ≤ 6,6 kV 
+Technology:  Looping, bonding, 
+spreading, insulating 
+First edition: 25.01.1989 
+Issue date 12.12.2017 
+Change index: AE 
+ 
+Basis rules of this Manufacturing Instruction: 
+ 
+ 
+The relevant drawings and parts lists and any other working documents that form an inherent part of the order 
+are always binding. Every item in this manufacturing instruction is covered in the drawing or parts lists of stator 
+coils. Pay attention that not every listed Item is needed for every order. Consult the parts lists concerning which 
+Items are needed. 
+ 
+Any changes to the manufacturing instructions in respect of materials and their Item Nos. will only be made if 
+they are deemed necessary on account of the manufacturing process. 
+ 
+The safety aspects of this manufacturing instruction must be pointed out to the employee by the department in 
+the form of a suitable instruction. 
+ 
+ 
+ 
+ 
+Distribution: Teamcenter 
+Approved by: Teamcenter 
+ 
+FA_30337/AE/006 Released 2018-02-01
+","Here is a concise summary of the text:
+
+""Manufacturing Instruction for high voltage coils in VPI design, Longitudinal winding 690V-6.6kV. Includes technical specifications, assembly process, and safety guidelines. Revised in 2017, approved by Teamcenter."""
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 2 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+Insulation machine MI 171*
+Insulation machine MI 155*
+Loop coil
+Bond coil
+Spread coil
+Insulate coil
+FA 30337
+FA 30373
+FA 30371
+FA 30377
+Coil spreader Schuemann*
+FA 30373
+Insulation machine Ridgway*
+ 
+* valid in 
+Nürnberg 
+Insulation machine 171/261* 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing instruction for high voltage coils in VPI design, including insulation machines MI 171, MI 155, and coil types such as loop, bond, and spread coils."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 3 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+Table of contents 
+1 
+General .......................................................................................................................................... 5 
+2 
+Coil looping................................................................................................................................... 5 
+2.1 
+General information (looping) ......................................................................................... 5 
+2.2 
+Looping machine setups ................................................................................................. 6 
+2.3 
+Setup wire supply ........................................................................................................... 7 
+2.4 
+Nose and corner shims / corset and longitudinal strips .................................................. 7 
+2.5 
+Looping longitudinal winding .......................................................................................... 7 
+3 
+Bond the coil sides .................................................................................................................... 10 
+3.1 
+General information bonding ........................................................................................ 10 
+3.2 
+Coil press setup ............................................................................................................ 11 
+3.3 
+Bond coil sides .............................................................................................................. 12 
+4 
+Coil spreading ............................................................................................................................ 14 
+4.1 
+Spreading general ........................................................................................................ 14 
+4.2 
+Hydraulic coil spreading machine 2015 company Schümann ...................................... 14 
+4.3 
+Hydraulic coil spreading machine Inv.-Nos. 603408 .................................................... 14 
+5 
+Sleeving insulation of connection ends (≤ 6,6 kV) ................................................................. 17 
+5.1 
+General sleeving insulation of connection end ............................................................. 17 
+5.2 
+Insulation length at connection ends ............................................................................ 18 
+5.3 
+Course of coil connection insulation ............................................................................. 20 
+6 
+Mechanical coil insulation......................................................................................................... 21 
+6.1 
+Mechanical insulation in general .................................................................................. 21 
+6.2 
+Insulation using the insulation machine Mi155 ............................................................. 24 
+6.3 
+Insulation using the insulation machine Mi171 or Mi261 .............................................. 24 
+6.4 
+Pressure control measure............................................................................................. 24 
+6.5 
+Front end insulation ...................................................................................................... 24 
+7 
+Coil insulation by hand .............................................................................................................. 25 
+7.1 
+Hand insulation in general ............................................................................................ 25 
+7.2 
+Insulation connection end ............................................................................................. 26 
+7.3 
+Slot and non-connection end insulation........................................................................ 27 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction for high voltage coils in VPI design. The document provides instructions for making and insulating coils, including looping, bonding, spreading, and sleeving insulation. It covers general information, setup procedures, and specific machine instructions for various coil insulation methods."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 4 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+7.4 
+Pressure control measure............................................................................................. 27 
+8 
+Affix the corona tape (AGS) ...................................................................................................... 28 
+9 
+Affix the overhang protective tape ........................................................................................... 30 
+10 
+Insulation quality ........................................................................................................................ 31 
+11 
+Handling of damaged coils ....................................................................................................... 32 
+ 
+FA_30337/AE/006 Released 2018-02-01
+","Here is a concise summary of the text optimized for retrieval:
+
+""Manufacturing instructions for high voltage coils in VPI design, including pressure control measures, corona tape application, overhang protective tape, insulation quality, and handling of damaged coils."""
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 5 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+1 
+General 
+ 
+In order to prevent impurities (iron filings, dust etc.) from being dragged into the clean room, plastic 
+wraps must be removed from the transport pallet before the copper reels are transported there. In 
+addition, the packaging must be removed from the individual reels. 
+ 
+The packaging materials must be disposed of outside the clean room. If copper reels are 
+transferred back from the clean room, they must be packed in dust-tight plastic wrap again before 
+being placed in storage. 
+ 
+Cleanliness is essential at all workplaces inside the clean room. The manufacturing area HV-Coil 
+production has to meet the requirements of TU- I060. 
+ 
+Accompanying manufacturing tests have to be done and documented according to Test-plan 
+QE1L001 (A5E00420496A). 
+ 
+If damage to the insulation of the individual strands is ascertained during the production process, 
+the damaged must be insulated (see also paragraph 12). 
+2 
+Coil looping 
+Equipment:    Looping machine, balance shear (Inventory-Number: 44206522 / 44206859 / 
+44203065 / 44203069), 
+ 
+Tools: 
+Former with indicator, assorted bending irons, paint tongs (scraper),  
+dispenser for adhesive tape, rule, micrometer, mallet,  
+bolt cutter, cloth shears, lifting gear, wrenches etc. 
+2.1 
+General information (looping) 
+ 
+Use the Hand guiding unit for more than 2 parallel conductors.  
+ 
+Prevent any contamination through chips, grease, moisture and other dirt, while the coils are 
+stored or transported. 
+ 
+Use the double table wagon for transportation. 
+ If damage to the insulation of the individual strands is ascertained during the production process, 
+the damaged must be insulated (see also paragraph 12). 
+FA_30337/AE/006 Released 2018-02-01
+","Here is a concise summary of the text:
+
+Manufacturing instructions for high-voltage coils in VPI design. Pre-production steps include removing plastic wraps from transport pallets and individual reels, and disposing of packaging materials outside the clean room. Cleanliness is essential in the clean room, and accompanying manufacturing tests must be done and documented. Coil looping requires specific equipment and tools, and general guidelines include using a hand guiding unit for parallel conductors, preventing contamination, and using a double table wagon for transportation."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 6 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+2.2 
+Looping machine setups 
+2.2.1 Setup longitudinal winding 
+ Adjust and fix looping bars according the information given by the corresponding drawing /parts list 
+(loop length LE).  
+ Mount looping pins according to the corresponding drawing/ parts lists (pin diameter DW).  
+ Adjust width between looping templates according to side width. Adjust measure blocks according 
+to the coil’s straight side length LRU and LRO (dimension according to coil drawing/ parts lists). 
+Pay attention to the alignment of the coil center (figure 1). 
+ 
+ 
+figure 1 
+ 
+2.2.2 Setup plus-/minus coils 
+Setup plus coils: 
+According to 2.2.1 
+ 
+Setup minus coils: 
+Adjust (extend) setup measure for minus coils according to the following formula: 
+LE(minus coils)= LE +2 x insulated flat wire height  x number of parallel conductors 
+Measure block position 
+FA_30337/AE/006 Released 2018-02-01
+","Here is a concise summary of the text:
+
+""Manufacturing instruction for high voltage coils in VPI design. Looping machine setup instructions include adjusting and fixing looping bars, mounting looping pins, and adjusting width between templates. Plus and minus coils require setup according to specific formulas and measurements."""
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 7 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+2.3 
+Setup wire supply 
+ Chose wire types according to parts lists. 
+ The number of coils to setup depends on the number of parallel conductors according to TRA.  
+ Mount coils into supply frames. 
+ Adjust the breaking system that the wire is taut throughout the looping process. Take care, that the 
+wire is taut during the looping process. Readjust if necessary. 
+2.4 
+Nose and corner shims / corset and longitudinal strips 
+ Before the looping process following insulation and reinforcing material have to be cut to size 
+according to stator coil drawings / parts lists: 
+ 
+- 
+Nose shims: In general for one wire in slot side size; item 22 
+- 
+Corner shims: Models with 2 poles and more than one parallel wire; item 29 
+- 
+Corset: Models with one wire; item 23 
+- 
+Longitudinal strips: Models with two wires in slot side size; item 24/25 
+ 
+ Insulation and reinforcing material, size and number, according to stator coil drawing / parts lists. 
+- 
+Exception: Nose shims width = flat wire width + 2 mm 
+2.5 
+Looping longitudinal winding 
+ Set the looping counter to zero. 
+ Fix all necessary wires with the clamping device to the looping template. 
+ One wire in slot side width: First meander needs to be insulated (item 21) in the area of winding 
+radii. Nose shims (item 22) have to be used between the first and second conductor. 
+ Loop the first two windings with relaxed lead clamp; tighten it afterwards to stretch the first winding. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction: Making and insulating high voltage coils in VPI design. Setup wire supply: choose wire types, mount coils, adjust breaking system. Nose and corner shims/corset and longitudinal strips: cut to size, adjust insulation and reinforcing material. Looping longitudinal winding: set looping counter, fix wires, meander insulation, use nose shims, loop and tighten."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 8 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+Longitudinal 
+intermediate 
+strip 
+ Loop the following windings, number of loops according to Stator coil drawing / parts lists / TRA. 
+ If large copper diameters are in use, it can be necessary to knock the nose ending down (up- and 
+downsides).  
+ Fit a Longitudinal strip (item 24/25) between two parallel conductors for the following hardening 
+process. 
+ Use the corset-hardening for windings with only one conductor (Item 23). Affix hardening tape 
+spaciously around the conductor between the penultimate and last wire. Use the tape before the 
+last layer of wire gets looped (figure 2, left side). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+figure 2 
+ 
+ 
+ Windings with two poles and two parallel conductors in slot side width have to be reinforced at the 
+four winding radii with corner shims (item 29). Put them between the wire layers which lay side by 
+side. The corner shims should end with the straight coil side. 
+ Use duct tape on all four ends of the straight coil side. Wrap the tape 1 ½ times around the wire 
+bundle. The inner edge has to encircle the length of the straight coil side (item 59; figure 2, left 
+side). If corner shims were used, fix them through this process. 
+ Additional tape bindings should be added: 
+o 
+Add in the area of the coil side, subject to coil side length LRO/LRU, tape bindings in 
+according to the table 1. The bindings have to dispense equal on the coil side. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Length of straight section 
+of coil side 
+Bonding corset 
+Strands 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing instruction for high voltage coils in VPI design. Steps include looping windings, fitting longitudinal strips, and applying corset-hardening and tape bindings."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 9 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+Table 1: 
+ 
+ 
+ 
+ 
+ 
+- 
+One binding should be affixed in the center of the coil end length, at all 2-pole windings, on the 
+top and bottom layers of the connection end and non-connection end. For all 2-pole windings 
+as well as for 4-pole windings with a mean coil end length > 1000 mm two binding have to be 
+used at the center of the coil end on the top and bottom layers of the connection end and non-
+connection end.  
+ 
+ Binding coils: Consult table 2, variant 1 for Number and type of bindings 
+Table 2:  
+variant 
+material 
+condition 
+Design 
+1 
+Binding wire 
+Longitudinal  
+wiring 
+ 
+ 
+ Fix the insulation with duct tape. Pay attention that no tape is longer than the coil nose, affixe only 
+to short Coil ends (figure 3): 
+ 
+ 
+figure 3 
+ 
+ 
+Coil side length [mm] 
+Number of additional laps 
+≤ 600 
+1  
+> 600 
+2  
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction: Making and insulating high voltage coils in VPI design. Table 1 specifies binding requirements: one binding at center of coil end length on top and bottom layers for 2-pole windings, two bindings for 2-pole windings with mean coil end length > 1000 mm. Table 2 provides binding wire type and condition. Insulation is fixed with duct tape, avoiding long tape on coil nose."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 10 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+ Cut coil ends to length according to coil drawings / parts lists (item A1 – A20 and E1 – E20) 
+ Remove the conductor insulation from the lead end with paint tongs (scraper).  
+ Relieve the tension on the lead clamp cam, remove the coil  
+3 
+Bond the coil sides 
+Equipment:     
+Storey presses (Inv. Nos. 603196 / 603197), 
+clamping spacers, separating spacers, intermediate spacers with a burnt-in 
+interface, 1.5 mm sheet steel partitions with a burnt-in interface, 
+reel holder for separating sheet with cutting machine 
+ 
+ 
+Tools: 
+Assorted wrenches 
+ 
+Utensils:  
+Separating sheet, talcum powder 
+3.1 
+General information bonding 
+ The presses, separating sheets and spacers have to be clean (free of scabs) glue leftovers are i.o.. 
+ Any damage to conductor insulation hast to be repaired (see part 12). 
+ Straight coil sides longer than 1000 mm must be bonded in two runs! 
+After the first hardening process move the coil so far that the unbonded part is in the bonding area. 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction: Making high voltage coils in VPI design. Cut coil ends to length, remove conductor insulation, relieve tension on lead clamp cam. Bond coil sides using storey presses, clamping spacers, separating spacers, and utensils. Ensure cleanliness and repair any damage to conductor insulation."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 11 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+3.2 
+Coil press setup 
+ Cut the separating sheets to size (according to the size of the clamping plates). 
+ Powder the separating sheets and spacers with a talcum as required. 
+ The thickness of the intermediate spacers is determined by the width of the conductor assembly 
+(see table 3).  
+ The length of the intermediate spacers is as follows: 
+Minimum: 
+Length of the straight coil sides as specified in the stator coil drawing  
+Maximum: 
+Minimum length + 150 mm 
+ 
+Table 3: 
+Conductor assembly in slot side width 
+[mm]     (acc. to stator winding drawing) 
+Thickness of intermediate 
+spacers [mm] 
+> 4,0 -  5,0 
+4,0 
+>  5,0 -  6,0 
+5,0 
+>  6,0 -  7,0 
+6,0 
+>  7,0 -  8,0 
+7,0 
+>  8,0 -  9,0 
+8,0 
+>  9,0 - 10,0 
+9,0 
+> 10,0 - 11,0 
+10,0 
+> 11,0 - 12,0 
+11,0 
+> 12,0 - 13,0 
+12,0 
+> 13,0 - 14,0 
+13,0 
+> 14,0 - 15,0 
+14,0 
+> 15,0 - 16,0 
+15,0 
+ 
+ Insert the clamping spacers into the press. 
+ Insert the bottom partitions. Position the separating sheet on the partitions. 
+ Insert the coils. Make sure all long coil ends are on the outside, so that they cannot be caught up. 
+ Insert the intermediate spacers so that they are offset and so that the conductor assembly on the 
+overhang is not subjected to pressure at one end (see fig. 4). 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction: Making and insulating high voltage coils in VPI design. Coil press setup: cut and powder separating sheets, determine intermediate spacer thickness based on conductor assembly width, and assemble coils with clamping spacers, bottom partitions, and separating sheets."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 12 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+ 
+figure 4 
+ 
+ 
+ Insert additional spacers for missing coils (at the end of a coil assembly). 
+ Position the separating sheet on the coils. Insert the top partitions. 
+3.3 
+Bond coil sides 
+ Close the press (i.e. move the layers together) 
+ Close the fall arrester 
+ Start the automatic 
+ Set lateral pressure to 100 bar  
+ Set vertical pressure to 50 bar  
+ When the press reaches 80°C reduce the vertical pressure to 5 bar 
+ Adjust final pressure (vertical and lateral) according to table 4 
+ 
+ 
+ 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction: Making and insulating high voltage coils in VPI design. Includes steps for inserting spacers, positioning separating sheets, bonding coil sides, and adjusting pressure in a press."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 13 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example: 
+Occupied clamping plate length = 650mm  pressure (vertical and lateral) = 110 bar 
+ After the temperature of 150°C is reached, the machine holds its temperature for two minutes  
+ Start the cooling system afterwards  
+ Open the fall arrester, when 60°C is reached to open the press levels 
+ Set horizontal and vertical pressure to 0 
+ Open the press 
+ Take the coils and lay them on a transport wagon. Pay attention that no coil ends damage the 
+insulation. 
+Occupied clamping plate length [mm] 
+Pressure (±10 bar) 
+(vertical and lateral) 
+> 500 
+100 
+> 600 
+110 
+> 700 
+120 
+> 800 
+130 
+> 900 
+140 
+> 1000 
+150 
+Table 4: pressure according to clamping plate length 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction: Making and insulating high voltage coils in VPI design. Example procedure: occupied clamping plate length, pressure, and temperature settings for coil production."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 14 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+4 
+Coil spreading 
+Equipment:  
+Hydraulic coil spreading machines Inv.-Nos. 603408 
+ 
+Tools:  
+Mallet, plane, rule, fitter’s knife, Standard gauge for rounding,  
+Angle gauge (W890421.020) 
+4.1 
+Spreading general 
+ Every part of the machine that gets in touch with the coil has to be oil and fat free. 
+ Any damage to conductor insulation hast to be repaired (see part 12). 
+4.2 
+Hydraulic coil spreading machine 2015 company Schümann 
+ See also FA 30377 ( Inv.-Nos. 44206483 / 44206861) 
+4.3 
+Hydraulic coil spreading machine Inv.-Nos. 603408 
+ The following functions should be set on the coil spreading machine prior to spreading the coils: 
+- 
+Radius at the coil nose (bolts, refer to the stator coil spreading for dimension). 
+The surfaces of the nose clamping jaws must be coated with Vulkollan before starting each 
+new coil assembly. 
+- 
+Length of the alignment dimension (refer to the stator coil drawing for dimension). 
+- 
+Length of the rails (refer to the stator coil spreading for dimension). 
+- 
+Step width (refer to the stator coil drawing for dimension). 
+- 
+Spreading angle (refer to the stator coil spreading for dimension). 
+- 
+Alignment of the coil nose (refer to the stator coil drawing for dimension). Note the different 
+dimensions for the connection and non-connection ends. 
+- 
+Coat the clamping jaws for the coil sides with a sufficient amount of Vulkollan to ensure that 
+the sides are taut. The clamping jaws must be coated at least 1 mm thick to avoid damaging 
+the insulation of the individual strands during the wire-spreading process. 
+Adjust the clamping jaw radii according to the wire-spreading radius (refer to the stator coil 
+drawing). 
+FA_30337/AE/006 Released 2018-02-01
+","Coil spreading instruction for high voltage coils in VPI design. Equipment includes hydraulic coil spreading machines Inv.-Nos. 603408 and 44206483/44206861. Tools required: mallet, plane, rule, fitter's knife, standard gauge, and angle gauge. Instructions cover general spreading, setting machine functions, and coating clamping jaws with Vulkollan."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 15 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+ Move the coil spreading machine into the starting position. 
+The internal coil lead is bent perpendicular to the coil. The external coil lead is bent around the 
+nose (see Fig. 5). 
+ 
+figure 5 
+ 
+ 
+Fit the coil over the bolts of the nose clamping jaws and close the jaws. 
+Insert the coil in the coil spreading machine as shown in Fig. 6. Refer to the stator coil 
+drawing. 
+ 
+figure 6 
+Coil spreading machine 
+Top layer 
+Bottom layer 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction for high voltage coils in VPI design. Step-by-step process includes moving the coil spreading machine, bending internal and external coil leads, fitting the coil over bolts, and inserting it into the machine."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 16 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+ Clamp the coil sides in the clamping jaws. 
+Stabilize the overhangs of 2-pole windings with U-rails and/or Velcro tape. 
+Additional stabilization may occasionally be necessary in the overhang if the strands intermingle. 
+ Spread the coils (release the automatic system). 
+ Align the wire-spreading radii and the overhangs. 
+Tap the overhangs with the plane and the mallet in the vicinity of the wire-spreading radii, in order 
+to ensure compliance with the radii specified in the stator coil drawing. 
+ Relieve the tension on the wire-spreading machine (release the hydraulic system). 
+Arch the overhangs and check them with the arch gauge. Refer to the stator coil spreading for the 
+overhang arch radius. 
+ Open the clamping jaws on the coil sides and noses and remove the coil. 
+ Realign the coil leads (in other words, match them to the overhang contours). 
+ Put coils on the transport wagon. 
+ 
+ 
+ 
+No 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing instruction for making and insulating high voltage coils in VPI design. The process involves clamping the coil sides, stabilizing overhangs, spreading coils, aligning wire-spreading radii, relieving tension, arching overhangs, and removing the coil."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 17 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+5 
+Sleeving insulation of connection ends (≤ 6,6 kV) 
+5.1 
+General sleeving insulation of connection end 
+ The ends of coils on stator windings with a rated voltage up to and including 6.6 kV are insulated 
+with insulation sleeving (item. 55). Refer to fig. 7 and fig. 8 for the length of the insulation sleeving. 
+ Dimensions of start „A“ and end „E“ are noted in the drawing / parts lists (refer to fig. 7, item. A1-
+A20 & E1-E20). 
+ Any damage to conductor insulation hast to be repaired (see part 12). 
+ 
+ 
+figure 7 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction: Making and insulating high voltage coils in VPI design. Section 5: Sleeving insulation of connection ends (up to 6.6 kV). General sleeving insulation of connection end, dimensions noted in drawings and parts lists."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 18 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+5.2 
+Insulation length at connection ends 
+ The insulation area depends on the given data (bail connection / stub connection / radial wiring), 
+Voltage level, coil height und length of connection ends. 
+ Insulation in area X and X’ (figure 8): 
+- 
+X (upper side) = a + coil height + b 
+- 
+X’ (lower side) = e + coil height + b 
+ 
+figure 8 
+ 
+ 
+ 
+ 
+FA_30337/AE/006 Released 2018-02-01
+","Here is a concise summary of the text optimized for retrieval:
+
+""Manufacturing instruction for high voltage coils in VPI design. Section 5.2 discusses insulation length at connection ends, dependent on data, voltage level, coil height, and length of connection ends."""
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 19 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+5.2.1 Length of connection ends („A“; „E“) < 250 mm (coil connection) 
+Table 5: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Dimensions „a“ and „e“ according to table 5. 
+ Tolerance a and e: + 5 mm (negative deviations aren’t allowed!) 
+ b = min. 95 mm 
+ 
+b is a combination of the distance between the loop to the inside of the coil nose (35+/-5mm), 
+the loop itself (ca. 15mm) and the min. overlapping length of min 40mm 
+Example:  stubs 6,6 kV and coil side height = 45mm; length of connection end ≤ 220 mm 
+ Insulation length (Min) for X = a + coil side height + b and X’ = e + coil side height + b 
+ X = 35 + 45 + 95 = 175mm 
+ 
+ X’ = 50 + 45 + 95 = 190mm 
+5.2.2 Connection ends („A“; „E“) ≥ 250 mm (interconnection) 
+ 
+measure „d“ = 150 mm 
+ 
+measures for „a“ und „e“ depend on the measure d. 
+ 
+b = min. 95 mm but max. to the middle of the front 
+Example:  stubs 6.6 kV und coil side height = 45mm, length of connection end = 400 mm 
+ Minimal X = X’ = (400-150) + 45 + 95 = 390mm 
+Exception radial connection:  
+Distinguishing characteristic: Measure CS is given by the parts lists (item. 1 HS_SPULE_WERTE). 
+Particularities: Insulate connection ends according of the drawing (Staenderspule-HS). The 
+measure “E” deviates from X’ through this in case of a radial circuit. 
+Voltage level [kV] 
+Coil side height [mm] a [mm] e [mm] 
+bail: 
+ 
+ 
+ 
+≤ 6,6 
+ 
+25 
+15 
+stub: 
+ 
+ 
+ 
+≤ 4,16 
+ 
+30 
+35 
+> 4,16 ≤ 6,6 
+< 40 
+35 
+40 
+> 4,16 ≤ 6,6 
+≥ 40 
+35 
+50 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction: Making and insulating high voltage coils in VPI design. Section 5.2.1 covers connection ends ""A"" and ""E"" with length ≤ 250mm (coil connection), including dimensions, tolerances, and examples. Section 5.2.2 covers connection ends ""A"" and ""E"" with length ≥ 250mm (interconnection), including measures ""a"", ""e"", and ""d"", as well as examples."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 20 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+5.3 
+Course of coil connection insulation 
+ The course of insulation depends on the insulation around the slot side and front side. If the front 
+side needs to be insulated by hand, is defined in point 6.1. 
+5.3.1 Course if the slot side gets insulated first (machine) 
+ The sliding of the insulation sleeve is done during machine insulating. Affix additionally an 
+acceleration pad (item 48) according to figure 9 at the position of the eighter loop. The acceleration 
+pad has to be added, at the coils with number of poles ≥ 6, during the machine insulating. Pay 
+attention that the acceleration pad has a minimal length of the sleeving but is allowed to be longer 
+than the sleeve in direction of the slot side. The mechanical insulation isn’t allowed to insulate the 
+sleeve. The final sleeve position (length a and e) is done during the manual insulation with a 
+template and the accelerator pad is fixed with a tape at the sleeve. Afterwards the coil head needs 
+to be insulated using mica tape. The connection ends get over- and under-looped until the sleeve is 
+insulated by min. 40mm.  
+After the use of the cover band the yellow duct tape (used to affix the acceleration pad) has 
+to be totally covered. 
+5.3.2 Course if the front side gets insulated first (manual) 
+ In general the course follows the same pattern as described above. However the end position of 
+the insulation tubing gets defined with the pre-insulation. The following mechanical insulation is 
+allowed to overlap the layering of the connection end insulation. 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction for high voltage coils in VPI design. Section 5.3 covers the course of coil connection insulation. The course depends on the insulation around the slot and front sides. If the front side is insulated manually, it is defined in point 6.1."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 21 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+ 
+figure 9 
+ 
+6 
+Mechanical coil insulation 
+Equipment:  
+Programmable coil insulating machines: Mi155 (inv.-no. 611 590 und  
+44204233), Mi171-3500 (inv.-no. 615783), Mi261 (inv.-no. 44206546), 
+pressure control unit (W840511.010) 
+ 
+Tools: 
+shears, dispenser for adhesive tape, force gauge 
+6.1 
+Mechanical insulation in general 
+ It is allowed to insulate coils by hand even if it’s possible to insulate them mechanically. Connection 
+end insulation has to be done according to point 5 (>6,6 kV consult FA30414 Point 3). 
+ Splices on mica tape aren’t allowed in the insulation. 
+ Any damage to conductor insulation hast to be repaired (see part 12). 
+ The winding ring has to be chosen according to the spread width (drawing). 
+ 
+ 
+Position of eighter 
+loop 
+Acceleration pad 
+Position of eighter 
+loop 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction: Making and insulating high voltage coils in VPI design. Mechanical coil insulation equipment includes programmable coil insulating machines and pressure control unit. Tools used are shears, dispenser for adhesive tape, and force gauge. General guidelines for mechanical insulation include hand insulation allowed, no splices on mica tape, damage to conductor insulation must be repaired, and winding ring selection based on spread width."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 22 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+ Coil that fall into the criteria:  
+- 
+Spread width between 165 mm and 180 mm 
+- 
+Bundle height smaller 31 mm (bonding dimension) 
+- 
+Bundle width smaller 11 mm (bonding dimension) 
+- 
+No transverse winding 
+can be insulated mechanically through spreading the width to 180 mm with approved Insulation 
+heads. 
+Spreading is done manually. 
+It is important, that the straight coil sides are kept parallel. The coils get bend back after the 
+insulation process. (for example: use an original coil as template). 
+ The straight coil side has to be in the middle of the insulation ring for the insulation process. 
+ Control the tension on the tape before every new set of coils; regulate as necessary. 
+ The requirement for the band tension is: 
+- 
+Insulation machine Mi171 u. Mi261: 
+The tension for the first two layers has to be 55 N (± 3 N), every following layer uses a tension 
+of 50 N (± 3 N).  
+Exception for insulation ring 984: Use a tension of 40 N (± 3 N) for every layer. Every set of 
+coils which is insulated with this ring has to be documented. 
+- 
+Insulation machine Mi155 old / new: 
+The tension has to be set to 50 N (± 3 N) in general. 
+ Control the tension after 10 coils with a power meter; regulate if necessary. To control the tension it 
+has to be measured with an empty and a full roll. The tension has to be in order over the complete 
+diameter. 
+Exception: self-regulating breaking-system (Mi171 und Mi261) 
+Control the tension before every new set of coils; regulate as necessary.  
+ If the insulation tape gets damaged (lose or crack of Mica, fraying of the GSGS-carrier, or similar) 
+or the coil soars up it is possible, after consultation with the technology department, to reduce the 
+tension. The insulation still has to follow the minimal standard for insulation quality (FA_30337; 
+point 17) and insulation pattern (pinned at MI171).  
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing instruction for high-voltage coils in VPI design. Coil criteria: spread width 165-180mm, bundle height <31mm, bundle width <11mm, no transverse winding. Insulation process: spreading width to 180mm with approved insulation heads, control tension on tape before and after insulation, regulate as necessary."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 23 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+ Number of layers, overlapping and length have to be concurring with the drawing /parts lists. 
+ The uppermost Mica layer has to be out of glass fabric (UL > 4,4 kV). This means only one layer 
+(one roll) has to be affixed. 
+ The mechanically insulated part of the front side has to reach as far as geometrically possible to 
+the coil nose. 
+ The gradation of each Mica layers depends on the Insulation order. Following graduations have to 
+be followed; length from start/end of the lowest layer to start/end of the uppermost (figure 10). 
+Note: 
+If it is not possible to maintain the gradation length because of the coil geometry or the gradation 
+ends over the end of the connection end insulation (tube or tape), the front side of the coil has to be 
+insulated manually after consultation with the technology department. If the coil needs to get 
+widened for mechanical insulation, the front side has to be insulated by hand. 
+Pay attention that a minimal distance of 30 mm from the straight coil side end (inner side 
+yellow tape) to the beginning of the first layer is adhered (figure 10). 
+ 
+figure 10 
+ 
+ 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction: Making and insulating high voltage coils in VPI design. Key requirements include: ensuring correct number of layers, overlapping, and length match drawing/parts lists; using glass fabric for uppermost Mica layer; insulating mechanically to coil nose; following specific graduation lengths; and maintaining a 30mm distance from coil side end to first layer."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 24 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+6.2 
+Insulation using the insulation machine Mi155 
+  According to FA 30373 (affects Inv.-no. 611590 and 44204233) 
+6.3 
+Insulation using the insulation machine Mi171 or Mi261 
+ According to FA 30371 (affects Inv.-no. 615783 and 44206546) 
+6.4 
+Pressure control measure 
+ For an optimal slot filling it is necessary to vary the tape overlapping from the data given by the 
+parts lists. The minimal overlap length given by the parts lists must not be undershot (Pay attention 
+to the overlapping length at the outer side!) 
+ The first coil has to be insulated as follows: 
+- 
+Every Mica-layer has 48 % overlap 
+ Check the insulation pressure according to QEAI013. Compare it with the table below.  
+- 
+Equation for the necessary insulation pressure of the main insulation without AGS (corona 
+tape): 
+Insulation pressure = slot width according to TRA – 0.7 mm 
+ 
+deviation 
+[mm] 
+Action 
+2+2 insulation 
+Every other insulation except 2 + 2 
+ 
+Insulation machine 1 to 4 
+Insulation machine 4 
+(Inv.-no. 611 590) 
+Insulation machine 1,2 und 3 
+± 0,2 
+No action necessary 
+No action necessary 
+No action necessary 
+> + 0,2 
+Reduce mica tape overlaps 
+from 48 % to 43 % for every 
+layer 
+Reduce mica tape overlaps 
+from 48 % to 43 % for every 
+layer 
+Reduce mica tape overlaps 
+from 48 % to 43 % for last 
+layer 
+< - 0,2 
+Increase AGS-overlaps from 30 % to 65 % 
+Increase mica tape overlaps 
+from 48 % to 60 % for last 
+layer 
+ 
+ Don’t remove the insulation of the first coil. Only apply the Changes on the following coils. 
+6.5 
+Front end insulation 
+ Number, length and overlaps have to be executed according to the drawing/parts lists. Fix the end 
+of the last layer with tape. 
+ 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction: Making and insulating high voltage coils in VPI design. Insulation methods include using insulation machines Mi155, Mi171, and Mi261. Pressure control measures are necessary for optimal slot filling, with specific overlap lengths and deviations. Insulation pressure is calculated based on slot width and deviation."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 25 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+7 
+Coil insulation by hand 
+Equipment:     
+rotatable coil supports (W870408), pressure control unit  
+(W840511.010) 
+ 
+Tools: 
+Cloth shears, dispenser for adhesive tape, shears, clamps 
+7.1 
+Hand insulation in general 
+ It is allowed to insulate coils by hand even if it’s possible to insulate them mechanically. Connection 
+end insulation has to be done according to point 5 (>6,6 kV consult FA30414 Point 3). 
+ Splices on mica tape aren’t allowed in the insulation. The splices have to be cut and the tape has to 
+be positioned that the tape overlap is min. one tape width. 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction: Making and insulating high voltage coils in VPI design. Hand insulation by hand with equipment: rotatable coil supports, pressure control unit. Tools: cloth shears, dispenser for adhesive tape, shears, clamps."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 26 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+7.2 
+Insulation connection end 
+ Number, length and overlaps have to be executed according to the drawing/parts lists. It is 
+important that the mica layer faces the inner coil and every following layer is moved back (figure 
+11) by a half band width (+ 5mm). The insulation has to be tightened by hand after every third loop. 
+ The last layer of mica tape is hold in place with a plain clamp, until the slot insulation is affixed. The 
+already insulated connection ends have to be insulated again until it has an overlapping of min. 
+40mm. 
+ 
+figure 11: example for 3 layers front end, voltage level 6,6 kV 
+  
+ 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing instruction for high voltage coils in VPI design. Section 7.2 covers insulation connection end, with specific requirements for number, length, and overlaps of layers, including mica tape and slot insulation."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 27 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+7.3 
+Slot and non-connection end insulation 
+ Number, length and overlaps have to be executed according to the drawing/parts lists. It is 
+important that the mica layer faces the inner coil. The insulation has to be tightened by hand after 
+every third loop. 
+ Extra insulation layers for the slot part have to be affixed first (figure12). Every following layer has 
+to go all around both slot sides and the non-connection end (figure 12). Pay attention that the 
+insulation has a proper overlapping with the already affixed layers, analogous to figure 11. Fix the 
+end of the last layer with tape. 
+ 
+figure 12: Example for 4 layers on the slot side, Voltage level 6,6 kV 
+ 
+7.4 
+Pressure control measure 
+ Check the insulation pressure according to QEAI013. 
+- 
+Equation for the necessary insulation pressure of the main insulation without AGS: 
+Insulation pressure = slot side width according to TRA – 0,7 mm 
+ 
+Deviation [mm] 
+Action: 
+± 0,2 
+No action necessary 
+< - 0,2 
+Increase Mica Tape overlapping of 
+the last layer form 43 % to 60 % 
+ If the desired measure cannot be achieved (even if the mica tape overlap was increased), it is 
+possible to increase the corona tape overlap from 30% to 65% to achieve it. 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction for high voltage coils in VPI design. Section 7.3 covers slot and non-connection end insulation, including layering, overlap, and tightening. Section 7.4 discusses pressure control measures, including checking insulation pressure according to QEAI013 and adjusting mica tape overlap to achieve desired levels."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 28 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+8 
+Affix the corona tape (AGS) 
+ Affix the corona tape (item 45) according to the drawing/ objects lists by hand or machine. 
+ The corona tape has to be added almost wrinkle-free 
+o 
+the corona tape has to be apply tight and not loose ( 
+o 
+choose the tape tension (machine or hand) so, that there are no longitudinal folds 
+on the tapes under the corona tape 
+o 
+the corona taping should be almost wrinkle-free   
+ Start and end of the corona tape have to be straight (figure 13). 
+ Fix the corona tape ends with glue TM 904 (item 57). 
+ Pay attention that no corona tape abrasion gets into the insulation. 
+ 
+ 
+ 
+figure 13 
+ 
+ 
+ 
+ 
+figure 14 
+ 
+ 
+ 
+ 
+ 
+figure 15 
+ 
+ 
+ 
+figure 16 
+FA_30337/AE/006 Released 2018-02-01
+","Affix corona tape (item 45) to the coil according to drawing/objects list, ensuring it is wrinkle-free, tight, and without longitudinal folds. Start and end of tape must be straight, and ends must be fixed with glue TM 904 (item 57)."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 29 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+9 
+Affix the overhang corona tape (EGS) 
+ Affix the overhang corona tape (item 49) according to the drawing/ objects lists (length is measured 
+on the inner side of the coil). 
+ Overlaps of 50 % (- 10 %) have to be kept in check. 
+ If only one layer of overhang corona tape is needed start at the front end. 
+ If the given number of layers is given with a “.5” like 1.5 layers, follow the instruction given in figure 
+13 (Starting at the middle, go to the front and then the howl way back). 
+ 
+ 
+figure 17 
+     
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing instruction for high voltage coils in VPI design. Task: affix overhang corona tape (EGS) on inner side of coil, ensuring 50% overlap, with optional multiple layers starting from front or middle."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 30 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+ 
+10 
+Affix the overhang protective tape 
+ Affix the overhang protective tape (item 50), with the texture to the outside, according to the 
+drawing/ objects lists  
+ The method for wrapping the overhang protective tape is shown in figure 18 on the right side. 
+ The protective tape must be fastened with tape at the end. 
+ 
+ 
+ 
+figure 18 
+ 
+ 
+ 
+Application 
+technic 
+Overhang protective tape 
+FA_30337/AE/006 Released 2018-02-01
+","Affix overhang protective tape (item 50) to the outside of a high voltage coil in VPI design, following the drawing or object list, using the method shown in figure 18."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 31 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+11 Insulation quality 
+Wrinkle examples (see insulation pattern at Mi171) 
+Best  
+ 
+accepted 
+ 
+ 
+Not accepted 
+ 
+ 
+ 
+ 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing instruction for high voltage coils in VPI design, with focus on insulation quality and acceptance criteria."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 32 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+12 Handling of damaged coils 
+ Repaired coils (>6,6kV) are not allowed as phase input coils. 
+ If the number of damaged coils increases, the technology department needs to be informed and if 
+necessary steps undertaken (for example: Surge Voltage testing). 
+ Repairs only depend on the sort of damage done to the insulation and not the kind of insulation. 
+The repair method is differentiated in three categories: 
+ 
+- 
+Top conductor insulation layer damaged but not severed: 
+The conductor should be wrapped around the damaged area of min. +/-10mm with one layer 
+of yellow duct tape (tape DIN40631-0,060X15-W50-GE). 
+- 
+Top conductor insulation layer severed: 
+The conductor should be wrapped around the damaged area of min. +/-20mm with one layer 
+of Mica tape type MIV1FM075 (overlapping 50% (-10%)) or a U-cap made out of MIV1FM160 
+is used. Tape ends and the U-cap can be fixed with yellow duct tape as necessary (tape 
+DIN40631-0,060X15-W50-GE). 
+- 
+Both conductor insulation layers severed: 
+The conductor should be wrapped around the damaged area of min. +/-30mm with two layers 
+of Mica tape type MIV1FM075 (overlapping 50% (-10%)) or a U-cap made out of MIV1FM160 
+is used. Tape ends and the U-cap can be fixed with yellow duct tape as necessary (tape 
+DIN40631-0,060X15-W50-GE). 
+ 
+FA_30337/AE/006 Released 2018-02-01
+","""Handling damaged coils: Repaired coils above 6.6kV are not allowed as phase input coils. If multiple coils are damaged, inform the technology department. Repairs depend on insulation damage type. Three categories: top conductor insulation layer damaged but not severed, top conductor insulation layer severed, and both conductor insulation layers severed. Repair methods include wrapping with yellow duct tape or Mica tape and using U-caps."""
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 33 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+Table of changes 
+Index 
+Changes 
+Date 
+A 
+Part N, page 3: Accelerator depot omitted. Page 8: “Affix fleece with 
+accelerator content” omitted. 
+11.01.91 
+B 
+Part 9, page 19: Speed of winding ring changed. 
+26.06.91 
+C 
+Manufacturing Instruction completely revised. 
+31.01.93 
+D 
+Pages 4, 27, 29, 31, 35, 36, 46: Cutting in the nose/final mica tape layer in 
+overhang changed. 
+17.06.93 
+E 
+Pages 4, 5, 7, 10, 12, 13, 14, 16, 27, 29, 35, 37, 40, 41, 42, 50 changed, 
+pages 30 and 31 inserted. 
+22.03.94 
+F 
+90° drawing angle omitted if support designed acc. to page 28. 
+15.09.98 
+AA 
+Manufacturing 
+Instruction 
+completely 
+revised. 
+CADIM 
+change 
+index 
+introduced. 
+09.12.04 
+AB 
+New: pressure control measure, winding, overlap machine - hand 
+10.08.07 
+AC 
+Insulation by machine coil step width between 165 and 180 mm 
+10.03.08 
+AD 
+Pressure control measure   
+23.04.14 
+AE 
+Part 8 added: 
+   The corona tape has to be added almost wrinkle-free 
+o 
+the corona tape has to be apply tight and not loose ( 
+o 
+choose the tape tension (machine or hand) so, that there 
+are no longitudinal folds on the tapes under the corona 
+tape 
+o 
+the corona taping should be almost wrinkle-free   
+ Start and end of the corona tape have to be straight (figure 13). 
+ 
+12.12.17 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing Instruction: High Voltage Coil in VPI Design. Changes include revised manufacturing process, added corona tape requirements, and updated CADIM change index."
+" s  
+PD LD P MF-NMA 
+M TEC W 
+Manufacturing Instruction 
+ 
+Making and insulating high voltage coils  
+in VPI design 
+FA_30337 - AE 
+  
+Page 34 of 34 
+ 
+Intern / Restricted 
+PD LD P MF-NMA M TEC W 
+Christoph Schultheiss 
+ 
+The following manufacturing instructions expire 
+ 
+Manufacturing instructions 
+ 
+- 
+FA 30337  AD 
+ 
+Manufacturing changing instructions 
+ 
+- 
+FE A5E00713160 AB 
+- 
+FE A5E03919295 AA 
+- 
+FE A5E32986195 AA 
+- 
+FE 60356 AC 
+ 
+FA_30337/AE/006 Released 2018-02-01
+","Manufacturing instructions for high voltage coils in VPI design, including FA_30337-AE and other related documents."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD P MF-NMA 
+M TEC LV 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 1 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV 
+ M.Hetterich  13.02.2014 
+ 
+Verfasser: M.Hetterich 
+Abt.: I DT LD P MF-NMA M TEC LV 
+Standort:   Nürnberg 
+Produktgruppe: Industrie 
+Baugruppe: Ständerwicklung 
+Technologie: wickeln, träufeln, 
+schalten 
+Erstausgabe: 13.02.2014 
+Ausgabe Datum  13.02.2014 
+Änderungsindex: AA 
+ 
+Grundsätzlich gilt: 
+ 
+ 
+Verbindlich sind immer die entsprechenden Zeichnungen und Objektlisten, sowie die zum Auftrag 
+gehörenden Arbeitspapiere. 
+ 
+Änderungen der Fertigungsanweisungen in Bezug auf Materialien und deren Sachnummern werden 
+nur dann vorgenommen, wenn sie wegen des Fertigungsverfahrens erforderlich sind. 
+ 
+Die Sicherheitsaspekte dieser Fertigungsanweisung müssen dem Mitarbeiter durch die Abteilung 
+mittels einer Unterweisung mitgeteilt werden. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Verteiler: nach Teamcenter 
+Freigeber: nach Teamcenter 
+ 
+","Siemens AG FA 30069 - AA Fertigungsanweisung for I DT LD P MF-NMA M TEC LV, produced by M.Hetterich on 13.02.2014."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 2 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+Inhaltsverzeichnis 
+1 
+Allgemeines zum Anfertigen von Runddraht – Ständerwicklungen.............3 
+2 
+Spulen wickeln..................................................................................................3 
+3 
+Spulen einlegen ................................................................................................9 
+4 
+Wicklung schalten ..........................................................................................17 
+5 
+Änderungstabelle............................................................................................20 
+ 
+","FA 30069 - AA: Siemens manufacturing instructions for wire coil production, including tables and sections on general guidelines, spool winding, inserting coils, and switching."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 3 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+1 Allgemeines zum Anfertigen von Runddraht – 
+Ständerwicklungen  
+Diese Anweisung ist eine Ergänzung zu den bestehenden 
+Fertigungsanweisungen zum Herstellen von für Runddrahtständer-
+wicklungen mit den Besonderheiten der 1LH4402 Wicklung. 
+Hierbei sind folgende Fertigungsanweisungen zu beachten: 
+FA 30360, FA 30361 und FA 30362  
+ 
+2 Spulen wickeln 
+FA 30360 beachten 
+ 
+Besonderheiten: 
+ 
+Windungen abbinden: 
+Beim Wickelablauf ist jede Windung mit Abbindeband abzubinden  
+Bindeposition siehe Bild 3   
+ 
+Isolierschläuche: 
+Isolierschlauchmaterial und Durchmesser nach Stückliste 
+ 
+Isolierschlauchlängen: 
+Spulenanfang und Spulenende  
+ 
+ 
+400 mm lang 
+Eingewickelte Spulenverbindung – Übergang 
+620 mm lang 
+ 
+Zu wickelnde Spulen: 
+Insgesamt sind 72 zusammenhängende Spulen zu wickeln. 
+Drahtkombination und Windungszahl nach Arbeitsunterlagen 
+Länge Spulenanfang / Ende ca. 500 mm ab Wickelschablone 
+ 
+48 Stück Spulen - jeweils eine kleine und eine große Spule  
+     zusammenhängend wickeln Bild 1.1, 1.2, 1.3 und 1.4 
+ 
+24 Stück Spulen - jeweils zwei mittlere Spulen zusammenhängend gewickelt   
+     Bild 2.1, 2.2, 2.3 und 2.4   
+ 
+","Siemens AG FA 30069: Production instruction for 1LH4402 coil winding. Includes general guidelines for producing round wire stator windings, specific instructions for FA 30360, FA 30361, and FA 30362, and details on spool winding, insulation, and wire combinations."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 4 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+ 
+Bild 1.1   48 Stück Wickelschablonen bewickeln =(1 kleiner + 1 großer Spulenschenkel) 
+ 
+Bild 1.2 Fertig gewickelte Spule (kleiner – großer Spulenschenkel) 
+  
+Wickelreihenfolge 
+2       3        1 
+Übergang 
+","Siemens FA 30069 - AA, Fertigungsanweisung, Anfertigen Stdr. Wicklung 1LH4402, Siemens AG, Bild 1.1, Wickelschablonen, Bild 1.2, Fertig gewickelte Spule."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 5 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+ 
+Bild 1.3 Lage - Übergang 1 
+ 
+Bild 1.4 Fertig gewickelte Spule  
+Übergang 
+Kleiner 
+Spulenschenkel 
+Großer 
+Spulenschenkel 
+","Siemens FA 30069 - AA, Fertigungsanweisung, Anfertigen Stdr. Wicklung 1LH4402, Siemens AG, I DT LD P MF-NMA M TEC LV, M.Hetterich, 13.02.2014."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 6 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+ 
+Bild 2.1  24 Stück Wickelschablonen bewickeln = 2 mittlere Spulen 
+ 
+Bild 2.2 Fertig gewickelte Spule (mittlere – mittlere Spule) 
+Wickelreihenfolge 
+2       3        1 
+Übergang 
+","Siemens AG FA 30069 - AA instructions for manufacturing a product, including diagrams and specifications."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 7 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+ 
+Bild 2.3 Lage - Übergang   
+ 
+Bild 2.4  Fertig gewickelte Spule   
+Übergang 
+Mittlerer 
+Spulenschenkel 
+Mittlerer 
+Spulenschenkel 
+","Siemens AG FA 30069 - AA, Siemens AG, I DT LD TD MF-NMA, M W TEC, Fertigungsanweisung, Anfertigen Stdr. Wicklung 1LH4402, Bild 2.3 Lage - Übergang, Bild 2.4 Fertig gewickelte Spule, Übergang, Mittlerer Spulenschenkel."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 8 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+ 
+Bild 3  jede Windung separat abbinden während des Wickelablaufes 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Beim Wickelablauf 
+jede Windung hier 
+abbinden 
+","FA 30069 - AA, Siemens, manufacturing instruction, Siemens AG, 13.02.2014."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 9 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+3 Spulen einlegen 
+Die Spulen sind nach Arbeitsunterlagen – Schaltbild stromverdrängungsarm 
+einzulegen. Hierbei sind die Fertigungsanweisungen FA 30361 und 30362 
+zu beachten 
+Einlegeschema KO – Wicklung (mit offenen Nutsprung) 
+Einlegeablauf einer 3+3 Spulengruppe: 
+Æ Großer Spulenschenkel Æ mittlerer Spulenschenkel Æ kleiner Spulenschenkel 
+(erste   3 -fach Spule) 
+ 
+Æ kleiner Spulenschenkel Æ mittlerer Spulenschenkel Æ Großer Spulenschenkel 
+(zweite 3 -fach Spule) 
+  
+Die Bilder 4 bis 11 zeigen das Einlegen der ersten zwei 3- fach Spulen mit 
+offenen Nutsprung. 
+Unterschicht: 
+In der Unterschicht sind die Windungen der zwei Teilspulen in der Nut 
+übereinander zu schichten, eine Trennung der Windung ist nicht erforderlich. 
+ 
+Oberschicht: 
+In der Oberschicht sind die Windungen mit Zwischenschiebern zu trennen. 
+Der Nutaufbau bzw. welche Windungen zu trennen sind ist aus der Tabelle 
+Bild 12 und 12.1 ersichtlich. 
+ 
+Bild 15 teileingelegte Wicklung mit hochgebundenen Sprungspulen  
+ 
+3.1  
+ Spulenschenkel binden  
+ 
+ Auf der Schalt- und Nichtschaltseite sind die Spulenschenkel mit GSGW 
+ Band nach Bild 13 zu binden 
+ 
+3.2 
+Spulenenden binden 
+ 
+Die Spulenanfänge und Enden (je 6 Stück) sind mit GSGW Band 
+zusammenzubinden 
+Bild 14 
+ 
+ 
+  
+","Siemens FA 30069 - AA: Fertigungsanweisung for manufacturing a 3+3 spulengruppe. Spulen einlegen according to Arbeitsunterlagen, Schaltbild, and Fertigungsanweisungen FA 30361 and 30362. Einlegeschema KO - Wicklung with offenen Nutsprung."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 10 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+ 
+Bild 4  Vorbereiten erste Spule, Spulen von Spulenbündel nehmen und um 180° drehen,  
+(große und kleine Spule) Spulen gemeinsam durchrunden und kleine Spule nach rechts 
+ausklappen 
+ 
+Bild 5  erste Teilspule einlegt  
+Große Spule einlegen und kleine Spule an den Haken hängen, Lage – Übergang beachten 
+",Siemens AG FA 30069 - AA. Instructions for manufacturing a coil.
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 11 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+ 
+Bild 6  zweite Teilspule einlegt, wird auf erste Teilspule gelegt, anschließend abkröpfen 
+ 
+Bild 7  mittlere Spule eingelegt  
+","Siemens FA 30069 - AA, production instructions for manufacturing a coil, with steps including inserting the second half of the coil onto the first half and then trimming it."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 12 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+ 
+Bild 8  kleine Spule eingelegt, anschließend wird die Zwischenlage eingeklebt und die 
+anhängend gewickelte 3 fach Spule eingelegt Einlegefolge kleine, mittlere und große Spule 
+ 
+Bild 9 Zwischenlage eingeklebt und kleine Spule eingelegt von der zweiten 3-fach Spule 
+eingelegt 
+","Siemens FA 30069 - AA, Fertigungsanweisung for Siemens AG, dated 13.02.2014."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 13 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+ 
+ Bild 10 mittlere Spule eingelegt 
+ 
+Bild 11 erste Spulengruppe 3+3 vollständig eingelegt 
+ 
+","FA 30069 - AA, Siemens, manufacturing instruction, coil winding, Spule, Spulengruppe, Siemens AG, M.Hetterich, 13.02.2014."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 14 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+ 
+Bild 12 Nutaufbau - Trennung der Windung in der Oberschicht 
+","Siemens FA 30069 - AA, Siemens AG, manufacturing instructions, part 14 of 20, Nutaufbau, windung, Oberschicht, separation."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 15 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+ 
+Bild 12.1 Nutaufbau - Trennung der Windungen mit Zwischenschiebern in der Oberschicht 
+ 
+ 
+ Bild 13 teileingelegte Wicklung mit abgebundenen Spulenschenkeln, 3 Bunde pro Spule 
+Spulenschenkel 
+zueinander abbinden 
+S
+Trennung der 
+Windungen mit 
+Zwischenschiebern 
+","FA 30069 - AA, Siemens, manufacturing instructions, production of 1LH4402, Siemens AG, 13.02.2014, wire winding, wire spools, binding, separation of windings with intermediate spacers, part assembly."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 16 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+ 
+Bild 14 alle Spulenenden einer Spule (6 Stück) mit GSGW Band zusammenbinden  
+ 
+Bild 15 teileingelegte Wicklung mit hochgebundenen Sprungspulen   
+ 
+",Siemens AG FA 30069 - AA production instructions for manufacturing a coil assembly.
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 17 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+ 
+4 Wicklung schalten  
+Die Wicklung ist nach den Arbeitsunterlagen – Schaltbild zu schalten. 
+Hierbei sind die Fertigungsanweisungen FA 30339, FA 30363, FA 30059 
+und FA 30385 zu beachten 
+4.1 Wickelkopf bandagieren mit Klebebund radial am     
+Wickelkopfinnen- Außendurchmesser  
+  
+Am Wickelkopfaußen- und Innendurchmesser ist ein Radialbund mit 
+Klebeband nach Stückliste aufzubringen Bild 16/17. Die Klebebunde sind 
+axial mittig an den Wickelköpfen anzubringen. 
+Die Wickelköpfe sind mit Einschnürband nach Zeichnungsstückliste durch 
+jede Nut einzuschnüren. 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+Bild 17 
+ 
+  Radialbund  am Wickelkopf Innendurchmesser -  Außen 
+ 
+Bild 16 
+Radialbund mit Einschnürband 
+am Nutausgang 
+ 
+Radial Klebebund axial mittig 
+am Wickelkopfinnen und  
+Außendurchmesser  
+","Siemens AG Fertigungsanweisung FA 30069: Anfertigen Wicklung 1LH4402. Schalten nach Arbeitsunterlagen, beachten FA 30339, FA 30363, FA 30059, FA 30385. Bandagieren Wickelkopf mit Klebebund radial am Außendurchmesser, axial mittig anbringen."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 18 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+4.2 Schaltung herstellen 
+ 
+Von den 6 Schaltenden einer Spule werden jeweils zwei Enden gemeinsam 
+in einen Isolierschlauch zusammengefasst Bild 18.1.  
+Die Wicklungsschaltung ist in zwei getrennte Wicklungssysteme geteilt, 
+Wicklungssystem 1 wird links und System 2 rechts ausgeführt, siehe Bild 19      
+                                                                                             
+ 
+ 
+Bild 18 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bild 18.1 
+ 
+Zwei Schaltenden in einen Isolierschlauch 
+gefasst 
+ 
+","FA 30069 - AA Siemens I DT LD TD MF-NMA M W TEC Fertigungsanweisung. Anfertigen Stdr. Wicklung 1LH4402. Siemens AG I DT LD P MF-NMA M TEC LV. 4.2 Schaltung herstellen: 6 Schaltenden in 2 Wicklungssysteme geteilt, Bild 18.1."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 19 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+4.3 Schaltung Distanzstücke einbauen und bandagieren 
+ 
+ 
+Distanzstücke nach Stückliste gleichmäßig verteilt einbauen 
+                       Leitungsabführung  
+ 
+                       System 1 Links          System 2 Rechts 
+ 
+Bild 19 
+ 
+ 
+ 
+. 
+ 
+","Siemens AG FA 30069 - AA. Fertigungsanweisung for Siemens AG FA 30069 - AA, dated 13.02.2014. Includes instructions for building and bandaging distance pieces, with diagrams."
+"FA 30069 - AA 
+  
+Siemens 
+I DT LD TD MF-NMA 
+M W TEC 
+Fertigungsanweisung 
+ 
+Anfertigen Stdr. Wicklung 1LH4402 
+(SIT) 
+Blatt 20 von 20 
+ 
+Siemens AG 
+ 
+I DT LD P MF-NMA M TEC LV  
+M.Hetterich  13.02.2014 
+ 
+5 Änderungstabelle 
+ 
+Index 
+Änderung 
+Datum 
+AA 
+Neuerstellung 
+17.02.2011 
+Hetterich 
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+","FA 30069 - AA, Siemens, production instruction, manufacturing process, Siemens AG, M. Hetterich, 13.02.2014, 5th revision table, changes, dates, AA, new creation, 17.02.2011, Hetterich."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 1 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+Verfasser: K. Elsner; E. Oluri 
+Abt.: NMA M TEC HV 
+ 
+Produktgruppe: HV 
+Baugruppe: Wicklung 
+Technologie: Einlegen 
+Erstausgabe: 09.03.1992 
+Ausgabe Datum 05.01.2015 
+Änderungsindex: AD 
+Grundsätzlich gilt: 
+ 
+ 
+Verbindlich sind immer die entsprechenden Zeichnungen und Objektlisten, sowie die zum Auftrag 
+gehörenden Arbeitspapiere. 
+ 
+Änderungen der Fertigungsanweisungen in Bezug auf Materialien und deren Sachnummern werden 
+nur dann vorgenommen, wenn sie wegen des Fertigungsverfahrens erforderlich sind. 
+ 
+Die Sicherheitsaspekte dieser Fertigungsanweisung müssen dem Mitarbeiter durch die Abteilung 
+mittels einer Unterweisung mitgeteilt werden. 
+ 
+ 
+Verteiler: siehe Teamcenter 
+Freigeber: siehe Teamcenter 
+ 
+","Siemens AG, Fertigungsanweisung, NMA M TEC HV, Einlegen und versteifen von HS-Formspulen-Ständerwicklungen in VPI-Ausführung, FA 30338-AD, für internen Gebrauch, Produktgruppe: HV, Baugruppe: Wicklung, Technologie: Einlegen, Erstausgabe: 09.03.1992, Ausgabe Datum: 05.01.2015, Änderungsindex: AD."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 2 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+Inhaltsverzeichnis 
+ 
+1 
+Allgemeines .................................................................................................................................. 4 
+2 
+Ständerblechpaket, Ständerwicklung und Temperaturüberwachung zum Einbau 
+vorbereiten .................................................................................................................................... 4 
+2.1 
+Unterlagen sichten und überprüfen ................................................................................ 4 
+2.2 
+Ständerblechpaket reinigen ............................................................................................ 4 
+2.3 
+Gereinigtes Ständerblechpaket auflegen ....................................................................... 5 
+2.3.1 
+Besonderheit bei aufgeschweißten Zugleisten ............................................................... 5 
+2.4 
+Sichtkontrolle Ständerblechpaket ................................................................................... 5 
+2.5 
+Ständerwicklungseinbau vorbereiten .............................................................................. 5 
+2.6 
+Ständerwicklung einteilen ............................................................................................... 6 
+2.7 
+Träufelschutzfolie einkleben ........................................................................................... 7 
+3 
+Temperaturüberwachung ............................................................................................................ 8 
+3.1 
+Nutwiderstandsthermometer (NT-PT…, KTY…) und Nutkaltleiter (KN-NAT…); 
+Standardausführung nicht abgeschirmt .......................................................................... 8 
+3.1.1 
+Vorbereitung Fühler ........................................................................................................ 8 
+3.1.2 
+Vorbereitung Zwischenschieber ..................................................................................... 8 
+3.1.3 
+Thermo mit Zwischenschieber verbinden ....................................................................... 9 
+3.2 
+Abgeschirmte Nutwiderstandsthermometer (NT-PT…-S…) .......................................... 9 
+4 
+Ständerwicklung einbauen........................................................................................................ 10 
+4.1 
+Nutgrundstreifen und Füllstreifen am Nutgrund einlegen ............................................. 10 
+4.2 
+Zusammenstellung der Ständerwicklung ...................................................................... 10 
+4.3 
+Ständerspulen pressen ................................................................................................. 11 
+4.4 
+Ständerspulen einlegen ................................................................................................ 13 
+4.4.1 
+Temperaturfühlereinbau ............................................................................................... 14 
+4.4.2 
+Filzzwischenlage (PES-Filz) ......................................................................................... 14 
+4.4.3 
+Füllung in Nuttiefe ......................................................................................................... 15 
+4.4.4 
+Sprungspulen einlegen ................................................................................................. 16 
+5 
+Nutverschluss ............................................................................................................................ 17 
+6 
+Ständerwicklung versteifen ...................................................................................................... 18 
+6.1 
+Allgemeines .................................................................................................................. 18 
+6.2 
+Wickelköpfe ausrichten (Unter- und Oberschicht) ........................................................ 18 
+6.3 
+Durchtränkbare Wicklungsstützringe ............................................................................ 20 
+6.3.1 
+Allgemeines zum Versteifen der Unterschicht (6.3.4 u. 6.4.2) ..................................... 20 
+",Siemens PD LD P MF-NMA M TEC HV Fertigungsanweisung: Einlegen und versteifen von HS-Formspulen-Ständerwicklungen in VPI-Ausführung.
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 3 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+6.3.2 
+Wicklungsstützringe markieren und befestigen ............................................................ 20 
+6.3.3 
+Spulenversteifungen der Unterschicht .......................................................................... 22 
+6.3.4 
+Spulenversteifungen der Oberschicht .......................................................................... 23 
+6.4 
+Ausführung ohne Wicklungsstützringe ......................................................................... 23 
+6.5 
+Füllung am Blechpaketende ......................................................................................... 24 
+6.6 
+GFK-Wicklungsstützringe ohne PES – Filz .................................................................. 24 
+6.6.1 
+Wicklungsstützringe der Unterschicht anpassen und markieren.................................. 24 
+6.6.2 
+Wicklungsstützringe versteifen ..................................................................................... 25 
+6.6.3 
+Wicklungsstützringe befestigen .................................................................................... 26 
+6.6.4 
+Spulenversteifungen der Oberschicht .......................................................................... 26 
+7 
+Leitungsverlegung der Temperaturfühler ............................................................................... 27 
+7.1 
+Standardausführung ..................................................................................................... 27 
+7.2 
+Kaltleiter ( KN-NAT… ) ................................................................................................. 28 
+7.3 
+Abgeschirmte Temperaturfühler ................................................................................... 28 
+7.4 
+Stillstandsheizung ......................................................................................................... 28 
+7.5  
+Besonderheit bei Motoren ohne Lochblech bis ≤ 1,6 KV ............................................. 28 
+8 
+Zwischenprüfung der Ständerwicklung ................................................................................... 31 
+9 
+Änderungstabelle ....................................................................................................................... 32 
+10 
+Hiermit werden folgende Fertigungsanweisungen und Fertigungsergänzungen 
+ungültig: ...................................................................................................................................... 33 
+10.2 
+Fertigungsanweisungen:............................................................................................... 33 
+10.3 
+Fertigungsänderungsanweisungen: ............................................................................. 33 
+","Siemens PD LD P MF-NMA M TEC HV Fertigungsanweisung for Einlegen and versteifen of HS-Formspulen-Ständerwicklungen in VPI-Ausführung. Includes instructions for marking and securing winding support rings, spool stiffening, filling at the end of the metal package, and temperature sensor wiring."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 4 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+1 
+Allgemeines 
+Folgendes ist beim Einlegen von Ständerwicklungen in VPI-Ausführung zu beachten: 
+ Die Blechpakete dürfen nicht auf Durchbiegung belastet werden. 
+ Die Auflage- bzw. Ablagefläche muss eben und sauber sein. 
+ Für den Transport mit dem Hallenkran muss ein C - Haken gewählt werden, dessen tra-
+gender Schenkel länger als das Blechpaket ist. Der Schenkel muss über die ganze Län-
+ge tragen und mit einem Schutzbelag versehen sein. 
+ Die Wickelwerkzeuge dürfen keine scharfen Kanten und Ecken aufweisen.  
+ Hartgewebeleisten mit Scharten und Schlagstellen müssen nachgearbeitet bzw. erneuert 
+werden. 
+ Belastungen die zu Beschädigungen der isolierten Spulen bzw. Wicklung führen können, 
+sind zu unter lassen. 
+ 
+ 
+Fertigungsmittel: 
+Hydraulische Spulenpressvorrichtung, 
+Rollengestell, Motorische Schlagschere,  
+ 
+Hallenkran,  
+ 
+ 
+Werkzeuge: 
+Wicklerwerkzeuge, Wickelhölzer 
+ 
+2 
+Ständerblechpaket, Ständerwicklung und Tem-
+peraturüberwachung zum Einbau vorbereiten 
+2.1 
+Unterlagen sichten und überprüfen 
+Die Unterlagen sind an Hand der Objektliste auf Richtig- und Vollständigkeit zu überprüfen. 
+Eventuelle Fehler und Unstimmigkeiten klären und berichtigen lassen. Dabei muss auf Be-
+sonderheiten und spezielle Kundenwünsche (z. B. Temperaturfühler, Lage Klemmenkasten, 
+“WET-Test“ usw.) geachtet werden.  
+2.2 
+Ständerblechpaket reinigen 
+Das angelieferte Blechpaket wird außerhalb des Wickeleibereiches (Stanzerei) gereinigt. 
+Die Vorreinigung mit Pressluft muss bereits in der Stanzerei erfolgen! 
+ Bei längerer Lagerung des Ständerblechpaketes muss es vor Anlieferung an den Ar-
+beitsplatz, in der Lagerstätte nochmals gereinigt werden! 
+","Siemens PD LD P MF-NMA Fertigungsanweisung: Einlegen und versteifen von HS-Formspulen-Ständerwicklungen in VPI-Ausführung. Vorgabe: keine Durchbiegung, ebene und saubere Auflagefläche, Transport mit C-Haken, keine scharfen Kanten, keine Beschädigungen isolierter Spulen. Fertigungsmittel: Hydraulische Spulenpressvorrichtung, Rollengestell, Motorische Schlagschere, Hallenkran. Werkzeuge: Wicklerwerkzeuge, Wickelhölzer."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 5 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+2.3 
+Gereinigtes Ständerblechpaket auflegen 
+Das gereinigte Blechpaket wird mit dem Hallenkran auf das Rollengestell abgelegt.  
+Beim Auflegen des Blechpaketes ist auf die Schaltseite zu achten (siehe Zeichnung/ 
+Objektliste). 
+Axiales Abrollen des Blechpaketes während des Wicklungseinbaus muss vom Mitarbeiter 
+korrigiert werden. 
+Die Seite des Blechpaketes, auf der die Fabriknummer mit Schlagzahlen an der Stirnseite 
+bei der Paßfedernut eingeschlagen wird, wird BS-Seite genannt! 
+2.3.1 
+Besonderheit bei aufgeschweißten Zugleisten 
+Bei diesen sind vor dem Auflegen des Ständerblechpaketes auf das Rollengestell Laufhölzer 
+anzubringen (Abbildung 1). 
+ 
+ 
+Abbildung 1 
+2.4 
+Sichtkontrolle Ständerblechpaket 
+Das gesäuberte Blechpaket ist außen und innen (Nut für Nut) mit einer Kontrollsichtung auf 
+Verunreinigungen (z.B. Grate, Späne, Schweißperlen), sowie vorstehende Bleche zu über-
+prüfen! An den Wickelplätzen darf nicht mit Pressluft ausgeblasen werden, da Späne aus 
+den Nuten auf die Wicklung eines benachbarten Ständers geblasen werden könnten! 
+Nacharbeiten (z.B. Feilen, Entgraten) sind mit dem Meisterbüro bzw. Technologie abzustim-
+men und außerhalb des Wickeleibereiches durchzuführen oder mittels Staubsauger und ent-
+sprechender Düse abzusaugen/reinigen! 
+2.5 
+Ständerwicklungseinbau vorbereiten 
+Die (isolierten und nach Zeichnung/Objektliste zusammengestellten) Spulensätze stehen auf 
+den Bereitstellflächen Spulenfertigung bereit. Anhand der Arbeitspapiere ist der benötigte 
+Spulensatz anzufordern. 
+","Siemens PD LD P MF-NMA M TEC HV production instruction. Task is to insert and secure flat wire coil spools on a VPI basis. Steps include: 1) laying clean coil package on the rolling frame, 2) checking for impurities, 3) preparing the coil package for winding, and 4) assembling the coil package with isolated and assembled coil sets."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 6 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+2.6 
+Ständerwicklung einteilen 
+Festlegen der Nut 1, Abführung der Ständerleitungen und der Temperaturüberwa-
+chung 
+Die Lage der Paßfedernut ist grundsätzlich unten! 
+Die Lage der Nut 1 richtet sich nach der Lage des Klemmenkastens (Zeichnung). 
+Die Nut 1, die Abführungen der Ständerleitungen und der Temperaturüberwachung ist auf 
+der Ständerblechpaket-Schaltseite (Stirnseite) anzuzeichnen  und erfolgt nach Schaltbild 
+(Abbildung 2). Der Nutsprung  ist auf der Zeichnung/Objektliste angegeben (Abbildung 3). 
+ 
+Anmerkung: Die genaue Position der Nut 1 zur Keilnut wird im Prüffeld dokumentiert. 
+ 
+Bei der Temperaturüberwachung ist auf den Einbauort (aus Tabelle Einbauorte Temperatur-
+fühler, siehe Objektliste) zu achten (AS oder BS). 
+ 
+   
+ 
+ Abbildung 2  
+ 
+ 
+    Abbildung 3 
+ 
+       W1 = Oberschenkelnut (Nut 1) 
+                        Keilnut                      
+ 
+    Unterschenkelnut ( z.B.: Nutsprung 1 - 9 ) 
+ 
+","Siemens PD LD P MF-NMA M TEC HV manufacturing instructions. The document outlines the assembly process for HS-form spool winding in VPI execution. It covers the division of the stand development, setting the nut 1, guiding the stand leads and temperature monitoring. The nut 1 location is determined by the clip nut position and is marked on the stand plate side. The document also includes illustrations and notes on the correct installation of temperature sensors."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 7 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+2.7 
+Träufelschutzfolie einkleben 
+In die Ständerbohrung wird am ganzen Umfang und über die ganze Paketlänge eine selbst-
+klebende Hostaphanfolie (SAP-Sach-Nr.: 1831105300) eingeklebt (Abbildung 4). 
+Die Folie muss auf jeder Seite einen fingerbreiten Überstand haben (ca. 10 – 20 mm). 
+Anschließend wird die Folie mit speziellen Messern in der Mitte der Nut aufgeschlitzt (Abbil-
+dung 5 u. 6). 
+Die Träufelschutzfolie (Hostaphanfolie) soll verhindern, dass die Spulenisolierung beim Ein-
+legen durch die scharfen Nutkanten beschädigt wird. 
+ 
+   
+   
+ 
+Abbildung 4 
+ 
+ 
+ Abbildung 5 
+ 
+ 
+     Abbildung 6 
+","Siemens PD LD P MF-NMA Fertigungsanweisung: Einlegen und versteifen von HS-Formspulen-Ständerwicklungen in VPI-Ausführung. Träufelschutzfolie einkleben in die Ständerbohrung, aufschlitzten und verhindern Beschädigung der Spulenisolierung."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 8 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+3 
+Temperaturüberwachung  
+Ist eine Temperaturüberwachung vorgegeben, die nicht bereitgestellt ist, so ist diese für den 
+Einbau vorzubereiten.  
+Es ist darauf zu achten, dass pro Auftrag Temperaturfühler eines Lieferanten zu verwenden 
+sind. 
+3.1 
+Nutwiderstandsthermometer (NT-PT…, KTY…) und Nutkalt-
+leiter (KN-NAT…); Standardausführung nicht abgeschirmt 
+3.1.1 
+Vorbereitung Fühler 
+ Anschlussleitungen abrollen, Bezeichnungsfahnen abnehmen und PUR-Schlauch 
+(d = 3mm) über beide Anschlussleitungen schieben (sofern nicht bereits vom Lieferanten 
+aufgebracht) 
+ Anschlussleitungen aufrollen, mit Gummiband umspannen und Bezeichnungsfahne wie-
+der anbringen. 
+a) Einbauort am Nutende  
+ Länge PUR-Schlauch 150 mm + mindestens 10 mm für Einbau (Abbildung 7).  
+b) Einbauort in Nutmitte 
+ Länge PUR-Schlauch wird so angepasst, dass ein Überstand von 150 mm ab Zwischen-
+schieber entsteht.  
+3.1.2 
+Vorbereitung Zwischenschieber 
+a) Einbauort am Nutende (Abbildung 7) 
+ Zwischenschieber auflegen, Länge Nutthermometer + 10 mm abmessen und anzeichnen.  
+ Bis zur angezeichneten Stelle 3 mm vom Zwischenschieber abnehmen. Bei 3 mm Zwi-
+schenschieberdicke wird dieser direkt an der markierten Stelle abgezwickt. 
+ Distanzstreifen auf entsprechende Länge des markierten Zwischenschiebers zuschnei-
+den. 
+b) Einbauort in Nutmitte (Abbildung 9) 
+ Zwischenschieber auflegen, Mitte Zwischenschieber + Hälfte Nutthermometer abmessen 
+und anzeichnen. 
+ Bis zur angezeichneten Stelle 3 mm vom Zwischenschieber abnehmen. Bei 3 mm Zwi-
+schenschieberdicke wird dieser direkt an der markierten Stelle abgezwickt. 
+ Distanzstreifen auf entsprechende Länge des markierten Zwischenstreifens zuschneiden. 
+","Temperaturüberwachung is required for NMA M TEC HV. If not provided, it must be prepared. Use temperature probes from a single supplier per order. The document provides instructions for preparing and installing nut resistance thermometers (NT-PT, KTY) and nut cold-leads (KN-NAT)."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 9 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+3.1.3 
+Thermo mit Zwischenschieber verbinden 
+a) Einbauort am Nutende (Abbildung 7) 
+ Nutthermometer mittig an der markierten Stelle am Zwischenschieber anlegen und beid-
+seitig bis zur Zwischenschieberbreite mit Distanzstreifen auffüllen. 
+ Klebeband mittig an markierter Stelle ansetzen, Zwischenschieber, Distanzstreifen und 
+Nutthermometer gemeinsam mit Klebeband fixieren (ca. 2 x umwickelt). 
+ PUR-Schlauch, Distanzstreifen, Nutthermometer und ggf. Zwischenschieber mittels Kle-
+bebund fixieren (ca. 2 x umwickelt). 
+ 
+   
+ 
+Abbildung 7                                          Abbildung 8                              
+b) Einbauort in Nutmitte (Abbildung 9) 
+Wie unter a), und im Abstand von maximal 100mm weitere Klebebunde (ca. 2x umwickelt) 
+zur Fixierung angebracht. 
+ 
+ 
+Abbildung 9 
+3.2 
+Abgeschirmte Nutwiderstandsthermometer (NT-PT…-S…) 
+Temperaturfühlerelement und Thermoleitung dürfen nicht geknickt werden! 
+a) Vorbereitung Fühler 
+Wie unter 3.1.1, jedoch wird der PUR-Schlauch (d = 3 mm, 150 mm lang) einzeln über die 
+Anschlussleitungen geschoben. Die Anschlussleitungen aufrollen, statt mit Gummiband um-
+sponnen, mit Kabelbindern an zwei Stellen fixieren (Abbildung 8). 
+b) Vorbereitung Zwischenschieber 
+Wie unter 3.1.2 a) + b). Bei Bedarf sind zusätzliche Distanzstreifen zu schneiden. 
+c) Montage 
+Wie unter 3.1.3 a) + b) 
+","Siemens PD LD P MF-NMA Fertigungsanweisung: Einlegen und versteifen von HS-Formspulen-Ständerwicklungen in VPI-Ausführung FA 30338-AD. Thermo mit Zwischenschieber verbinden: Einbauort am Nutende oder in Nutmitte, Nutthermometer mittig an der markierten Stelle anlegen, Distanzstreifen auffüllen und Klebeband fixieren. Abgeschirmte Nutwiderstandsthermometer (NT-PT-S...): Temperaturfühlerelement und Thermoleitung nicht geknickt werden, Vorbereitung Fühler und Zwischenschieber, Montage wie unter 3.1.3 a) + b)."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 10 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+4 
+Ständerwicklung einbauen 
+ Das Einlegen der Ständerwicklung erfolgt immer mit 2 Personen. 
+4.1 
+Nutgrundstreifen und Füllstreifen am Nutgrund einlegen 
+Sofern nicht beigestellt, nach Angabe in der Zeichnung/Objektliste Nutgrundstreifen oder 
+Nutgrundfüllstreifen schneiden (Elektrische Schlagschere) und einlegen.  
+ 
+Müssen die Nutgrundstreifen zusammengeklebt werden, gibt es folgende Möglichkeiten: 
+Vor dem Schneiden der Nutgrundstreifen: 
+ Sind die Platten zum Schneiden der Nutgrundstreifen zu klein, können sie stoßend mit 
+Klebeband (BAND DIN40631-0,045x50-K50-BL, Sach-Nr. 193702700) beidseitig zu-
+sammengeklebt werden (Abbildung 10) 
+Bei geschnittenen Nutgrundstreifen: 
+ Können die Nutgrundstreifen, wegen zu großer Abmessung, nicht in einem geschnitten 
+werden, sind diese mit Klebeband (BAND DIN40631-0,045x50-K50-BL, Sach-Nr. 
+193702700) stoßend und 1,5 mal umwickelt zu kleben (Abbildung 10a). 
+ 
+    
+Abbildung 10 
+ 
+4.2 
+Zusammenstellung der Ständerwicklung 
+Beim Einlegen ist vom Mitarbeiter an der Schaltseite auf eine richtige Zusammenstellung der 
+Spulen nach Zeichnung zu achten. 
+ 
+ 
+","Siemens PD LD P MF-NMA M TEC HV production instruction: assembling and securing HS-form spool winding (flat wire) in VPI execution. Instructions for assembling the spool winding with 2 people, including cutting and inserting nut and fill strips, and options for bonding the strips together using adhesive tape."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 11 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+4.3 
+Ständerspulen pressen 
+Jede Spule (Ober- und Unterschenkel) ist unmittelbar vor dem Einlegen, nach den Einstell-
+parametern der hydraulischen Spulenpresse im geraden Teil zu pressen.  
+ Die Pressleisten sind der jeweiligen Spulenlänge so anzupassen (Abbildung 11), dass 
+nur im Bereich des AGS gepresst  wird (Abbildung 12). 
+ Die notwendige Pressleistenlänge = Blechpaketlänge + 10 mm. 
+ Ist die erforderliche Preßleiste nicht vorhanden, kann nach Abklärung mit dem Mei-
+ster/Vorarbeiter die Spule mit einer halben Pressleistenlänge zweimal gepresst werden 
+(Abbildung 13 u. 14). 
+ Für den Pressdruck ist anstatt der Schenkellänge die Pressleistenlänge anzugeben. 
+ Die Spule ist während des Pressvorganges so zu halten, dass der zu pressende Nutteil 
+nicht verkantet wird. 
+ 
+   
+ 
+Abbildung 11                                                            Abbildung 12 
+ 
+   
+ 
+ Abbildung 13                                                           Abbildung 14 
+ 
+ 
+","Siemens PD LD P MF-NMA M TEC HV production instruction. Instructions for inserting and securing HS-form spool windings (flat wire) in VPI execution. Each spool (upper and lower leg) must be pressed immediately before insertion, according to hydraulic press settings. Pressing must only occur in the AGS area, and the required press length is the length of the sheet package plus 10mm."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 12 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+Der Pressdruck der Presse ist nach folgendem Diagramm, abhängig vom Spulenquerschnitt 
+und der Blechpaketlänge, einzustellen: 
+ 
+Einstellparameter Spulenpresse IPM 2
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+220
+240
+300
+400
+500
+600
+700
+800
+900 1000 1100 1200 1300 1400 1500
+Schenkellänge in mm
+Druck in bar
+15
+20
+25
+30
+35
+40
+45
+50
+Schenkelhöhe
+Bsp 1.: Länge 650 und Höhe 22
+Bsp 2.: Länge 1225 und Höhe 30
+ 
+ 
+ 
+ 
+ 
+","Siemens production instruction for winding flat wire in VPI execution. The document outlines the setup parameters for the press pressure of the Spulenpresse IPM 2, dependent on the wire cross-section and package length."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 13 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+4.4 
+Ständerspulen einlegen 
+Wenn Wicklungsstützringe (GFK) vorgegeben sind, sind diese provisorisch am Blechpaket 
+anzubringen, z.B. mit einem Holzkeil (Abbildung 15). 
+Beim Einlegen der Spulen ist die Zeichnung/Objektliste zu beachten und es muss zusätzlich 
+zu der Träufelschutzfolie an den Nutaustritten ein Einlegeschutz (Kantenschutz) aus 300 µm 
+PET-Follie für elektrotechnische Anwendungen (Normbezeichnung IEC 60674-3-2 PET – 
+Typ 1 – 300) verwendet werden (Abbildung 16 u. 17). 
+ 
+   
+   
+ 
+Abbildung 15                                   Abbildung 16                                Abbildung 17 
+ 
+Unterschenkel in der vorher angezeichneten Nut mittig ansetzen (AGS-Band ausgemittelt) 
+und nach unten drücken. Dabei ist darauf zu achten, dass die Isolierung der Spulenschenkel 
+nicht beschädigt wird. Wird dennoch der Spulenschenkel beschädigt ist die Spule in der Spu-
+lenvorfertigung zu reparieren. 
+Falls notwendig Spulenschenkel mittels Schlagleiste aus HGW (welche etwa 1-2 mm 
+schmaler als die Nut ist) nachklopfen. Dabei muss jede Gewaltanwendung vermieden wer-
+den. 
+Der Oberschenkel wird bei den Sprungspulen mit den Händen in die Nut hineingedrückt. 
+Ausnahme: 
+Nutsprung 1–7 und kleiner: Die Oberschenkel verbleibend außerhalb der Nut, ruhend in 
+der Bohrung liegen. Zum Schutz gegen Beschädigungen wird ein HGW-Streifen zwi-
+schen Blechpaket und Oberschenkel gelegt (Abbildung 18). 
+  
+ 
+Abbildung 18      (Schaltseite)                  (Nichtschaltseite) 
+ 
+Sind die Unterschenkel der Sprungspulen eingelegt, werden auf diese nach der Zeichnung/ 
+Objektliste vorgegebenen Zwischenschieber und/oder Füllstreifen gelegt. 
+",Siemens PD LD P MF-NMA M TEC HV manufacturing instruction for assembling and securing flat wire coil wraps in VPI configuration.
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 14 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+4.4.1 
+Temperaturfühlereinbau 
+Die Nutthermometer bzw. Nutkaltleiter werden so in den Nuten, die im Dokument 
+(A5E02610533A, Einbauorte PT100 & Kaltleiter) vorgegeben sind, eingebracht (Abbildung 
+19), dass die Temperaturfühlerelemente direkt am Unterschenkel anliegen. Bei zusätzli-
+chem Füllstreifen zum Nutthermometer bzw. Nutkaltleiter ist dieser zum Oberschenkel hin 
+einzubringen! 
+Die Anschluss- bzw. Erdungsleitungen sind gegen Beschädigungen zu sichern. 
+ 
+ 
+Abbildung 19                                     
+4.4.2 
+Filzzwischenlage (PES-Filz) 
+Die Filzzwischenlagen werden in der Mitte mit einem Streifen Kleber (Epple-Kleber,  Sach-
+Nr. zusammengeklebt (Abbildung 20), und müssen die erste Kreuzungsstelle der Ober- und 
+Unterschicht komplett abdecken. Das Lagemaß des Filzes, Abstand vom Blechpaket, in der 
+Zeichnung/Objektliste ist nur zur Orientierung. Die Lage des Filzes siehe (Abbildung 21 u. 
+22).  
+ Bei größerem Abstand ist die Filzstärke vom Mitarbeiter anzupassen! 
+ 
+   
+   
+ 
+Abbildung 20                                              Abbildung 21                           Abbildung 22 
+Besonderheit bei > 6,6kV: 
+Wenn in Zeichnung/Objektliste die Filzzwischenlage nicht vorgegeben ist, muss der vorge-
+gebene Abstand lt. Zeichnung zwischen Ober- und Unterschicht überprüft und eingehalten 
+werden. 
+","Siemens PD LD P MF-NMA Fertigungsanweisung: Einlegen und versteifen von HS-Formspulen-Ständerwicklungen in VPI-Ausführung FA 30338. Temperaturfühlereinbau: Nutthermometer/Nutkaltleiter in vorgegebenen Nuten einbringen. Filzzwischenlage (PES-Filz): Mit Epple-Kleber zusammenkleben, erste Kreuzungsstelle abdecken."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 15 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+4.4.3 
+Füllung in Nuttiefe 
+Die ersten 3 eingelegten Oberschenkel werden verkeilt, um festzustellen, ob noch zusätzli-
+ches Füllmaterial in Nuthöhe nötig ist. Bei diesen 3 eingelegten Oberschenkeln sind max. 2 
+Rutschstreifen vorzusehen, um beim weiteren Verkeilen auftretende Toleranzen mit 1 bis 3 
+Rutschstreifen ausgleichen zu können. 
+ 
+ 
+Auf folgende Kriterien ist zu achten: 
+ 
+Quell- bzw. Rutschstreifen schließt bei leichter Pressung mit der unteren Kante der 
+Nutaussparung ab, so dass der Nutverschluss-Streifen bzw. -keil stramm sitzt und 
+vollflächig auf dem Quell- bzw. Rutschstreifen aufliegt. 
+ 
+Der Überstand des Rutschstreifens (ca. Handbreite) muss sich im verkeilten Zustand 
+noch mit der Faust ziehen lassen (Abbildung 23). 
+ 
+Die Wicklung ist zu locker verkeilt, wenn sich der Nutverschluss-Streifen (Pos. 15) per 
+Finger mit leichtem Druck verschieben lässt. 
+ 
+   
+Abbildung 23 
+ 
+Wird zusätzliches Füllmaterial benötigt  so ist dieses zu schneiden und in die Stelle (Position) 
+einzulegen die laut Zeichnung/Objektliste vorgegeben ist (am Nutgrund, zusätzlich zum Zwi-
+schenschieber oder unter dem Rutschstreifen). 
+ 
+Ergibt sich nach dem Einlegen der Spulen zwischen Oberschenkel und Nutverschlussstrei-
+fen ein größerer Freiraum, dürfen maximal 3 Rutschstreifen der Dicke 0,5 mm vorgesehen 
+werden, d.h. eine Dicke von max. 1,5 mm gesamt. 
+ 
+Die weiteren Spulen, Nutgrundstreifen, Zwischenschieber und/oder Füllstreifen werden bis 
+zum Erreichen der Sprungspulen in die Nuten eingelegt; zuerst der Unter-, dann der Ober-
+schenkel. 
+ 
+","Siemens PD LD P MF-NMA M TEC HV production instruction for winding flat wire coils in VPI configuration. The document outlines the steps for filling the coils with material, ensuring proper fit and tension, and provides guidelines for adjusting the coil thickness and material usage."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 16 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+4.4.4 
+Sprungspulen einlegen 
+Die Sprungspulenunterschicht wird mit Versteifungshölzern am Nutausgang versteift und so 
+gegen Verletzen der Nutseiten am Blechpaketende geschützt (Abbildung 24). 
+ 
+Die Sprungspulenoberschenkel werden einzeln in die Bohrung hinein geschränkt und dort 
+mit PETGW-Band in ihrer Lage fixiert (Abbildung 25 u. 26) um den Einbau der letzten Spu-
+len zu ermöglichen. 
+ 
+   
+   
+ 
+Abbildung 24                             Abbildung 25                                Abbildung 26 
+Die letzten Spulen, Nutgrundstreifen, Zwischenschieber und Temperaturfühler werden einge-
+legt. Die Sprungspulenoberschenkel werden losgebunden und eingelegt. 
+Die Wickelkopfversteifungshölzer werden herausgenommen (Abbildung 24) 
+",Siemens PD LD P MF-NMA M TEC HV production instructions for assembling and securing flat wire coil spring spools in VPI configuration. The instructions describe the process of inserting and securing the spring spool undersheet with reinforcement blocks at the nut outlet to protect the nut sides from damage.
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 17 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+5 
+Nutverschluss 
+Die Oberschenkel werden mittels Schlagleiste aus HGW herunter geklopft und anschließend  
+wird die Träufelschutzfolie (Hostaphanfolie) entfernt. 
+Die Rutsch- und/oder Füllstreifen werden eingelegt und die Verschlussstreifen mit leichten 
+Hammerschlägen eingeschlagen – siehe Definition unter 4.4.3 (Abbildung 27). 
+Die unter den Verschlussstreifen hervorragenden Rutschstreifen werden bündig am Blech-
+paketende abgebrochen. 
+ 
+An den Nutenden wird ein Tropfen Kleber (Epple-Kleber 4551, Sach.-Nr. 2219033000) auf 
+die Verschlussstreifen aufgetragen, die Endkeile eingeschlagen und bündig zum Blechpa-
+ketende ausgerichtet (Abbildung 28). Überstehender Kleber ist zu entfernen. 
+ 
+   
+ 
+Abbildung 27                                   Abbildung 28                         
+ 
+Besonderheit: 
+Bei verkürzten Endblechpaketen können 25 oder 30 mm lange Endkeile eingesetzt werden 
+(Vorgabe nach Stückliste). Hierbei kann der Endkeil bis zu 3 mm über das Ende Blechpaket 
+stehen, er darf jedoch nicht in den Luftschlitz hineinragen. 
+ 
+ 
+ 
+ 
+Der Einbau der Protofermasse erfolgt nach Fertigstellung der Wicklung an einem gesonder-
+ten Arbeitsplatz nach FA 30823 (Einspachteln) und FA 30813 (Nachdrücken). 
+","Siemens PD LD P MF-NMA Fertigungsanweisung for Einlegen und versteifen von HS-Formspulen-Ständerwicklungen in VPI-Ausführung. The procedure involves nut closure, including removing the shoulder pad, inserting and securing the filling and sliding strips, and applying adhesive to the ends."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 18 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+6 
+Ständerwicklung versteifen 
+6.1 
+Allgemeines 
+Die Wickelköpfe werden nach Maßvorgaben in der Zeichnung/Objektliste ausgerichtet. 
+Hierzu wird entsprechendes Wicklerwerkzeug verwendet: 
+ Das Ausrichten muss mit der dazu notwendigen Sorgfalt geschehen, die Isolierung darf 
+nicht beschädigt werden. 
+ Falls der Biegehaken nicht verwendet werden kann (Abbildung 29), oder wenn Beschä-
+digungen zu erwarten sind, ist der Meister/Vorarbeiter zu informieren. 
+ 
+Abbildung 29                                                  
+6.2 
+Wickelköpfe ausrichten (Unter- und Oberschicht) 
+Anordnung und Lage der Versteifungsringe und der Versteifungen nach Zeichnung/ Objektli-
+ste. 
+Besondere Sorgfalt ist beim Ausrichten der Wickelköpfe von Querwicklungen erfor-
+derlich! 
+Wickelköpfe (Unter- und Oberschicht) mit Biegehaken (Abbildung 29), Richteisen (Abbil-
+dung 30 u. 31), Abstandsmaßhalter (Abbildung 32) und Klopfhölzer (Abbildung 34 u. 35) 
+vor- und ausrichten. 
+ 
+   
+   
+ 
+","Siemens PD LD P MF-NMA Fertigungsanweisung: Einlegen und versteifen von HS-Formspulen-Ständerwicklungen in VPI-Ausführung. Ständerwicklung versteifen, Wickelköpfe ausrichten, Versteifungsringe und -scheiben nach Zeichnung/Objektliste."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 19 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+Abbildung 30                    Abbildung 31                                      Abbildung 32 
+Zusätzlicher Arbeitsgang bei 2-poligen Motoren: 
+Durchrunden der Spulen (Oberschenkel), wenn erforderlich (Abbildung 36). 
+   
+ 
+Abbildung 33  
+ 
+               Abbildung 34                                  
+ 
+   
+ 
+Abbildung 35  
+ 
+         Abbildung 36            
+ 
+An den Phasenwechseln ist der Mindestabstand nach Zeichnung/Objektliste einzuhalten und 
+mittels Lehre zu kontrollieren. Kann der Abstand nicht eingehalten werden, so sind während 
+dem eigentlichen Versteifen Distanzierungselemente (Füllungen) einzubringen, unabhängig 
+von der Vorgabe in der Zeichnung/Objektliste (Abbildung 37 - 39). 
+Bei mehreren Wicklungsstützringen pro Wickelkopf ist immer der Äußere zuerst zu verstei-
+fen. 
+Distanzierungselemente (Füllungen) maximal bis zum Beginn des Spulenradius einbringen 
+(Abbildung 37), jedoch muß mindestens 50 % der gesamten Breite am Spulenschenkel an-
+liegen. 
+Die Distanzierungselemente (Füllungen) an der Nichtschaltseite in der Spulennase sind 25 
+mm lang (Abbildung 38). 
+   
+   
+ 
+","Siemens PD LD P MF-NMA M TEC HV production instruction for assembling and securing HS-flat wire coil windings in VPI configuration. Includes diagrams 30-39, with instructions for additional steps for 2-pole motors and controlling minimum distances during phase changes."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 20 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+Abbildung 37                                    Abbildung 38               Abbildung 39           
+6.3 
+Durchtränkbare Wicklungsstützringe 
+6.3.1 
+Allgemeines zum Versteifen der Unterschicht (6.3.4 u. 6.4.2) 
+ Es ist darauf zu achten, dass das Versteifungsmaterial (Zeichnung/Objektliste) am Ring 
+anliegt. 
+ Die Länge der Versteifung muss so gewählt werden, dass sie mindestens die halbe und 
+maximal die ganze Ringhöhe abdeckt. 
+ Jedes Versteifungselement der Unterschicht muss auf der gegenüberliegenden Ober-
+schicht aufliegen. 
+ Zuerst werden alle Versteifungen und Füllungen zwischen den Phasenwechsel einge-
+bracht und dann der Reihe nach die Restlichen der Spulengruppe. 
+6.3.2 
+Wicklungsstützringe markieren und befestigen 
+Die Positionen der Wicklungsstützringe sind aus der Zeichnung/Objektliste zu entnehmen 
+und mittels Schablone zu kennzeichnen (Abbildung 40). Die erforderliche Länge wird von 
+der Rolle entnommen. Anzahl der Ringlagen, Anordnung und Überlappung der Wicklungs-
+stützringe nach Zeichnung/Objektliste. 
+Während und nach dem Ablängen werden die Wicklungsstützringe mit Kabelbindern fixiert 
+und auf Position gehalten (Abbildung 41). 
+Beim fortlaufenden Binden der Wicklungsstützringe ist darauf zu achten, dass jeder 3. Un-
+terschenkel zweimal gebunden (umschlungen) wird, beide Binde-Richtungen sind zulässig 
+(Abbildung 42). Ausführung 2–polig siehe nachfolgende Seite. 
+ 
+   
+   
+ 
+Abbildung 40                   Abbildung 41                 Abbildung 42 
+ 
+Bei 2 – poligen Motoren mit durchtränkbaren Ringen kann zum Ausrichten der Unterschicht 
+ein GFK- Ring (mit Filz umwickelt) aufgezogen und mit Kabelbinder fixiert  werden            
+(Abbildung 43). 
+ Der Ringdurchmesser richtet sich nach dem Wickelkopfaußendurchmesser! 
+","Siemens PD LD P MF-NMA M TEC HV production instruction for inserting and securing flat wire coils in VPI configuration. The instruction covers general guidelines for securing the undersheet (6.3.4 and 6.4.2) and the use of supports and fillings between phase changes. It also describes the marking and securing of coil supports, the fixing of coil support rings with cable ties, and the binding of coil support rings with cable ties."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 21 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+ Vor dem Aufziehen des Ringes muss der Wickelkopf mittels Abstandshalter                
+(Abbildung 32) nach Zeichnung/Objektliste vorgerichtet werden. 
+ Nach dem Binden der Ringe wird dieser wieder vorsichtig entfernt. 
+ 
+Abbildung 43 
+ 
+Versteifungssystem bei 2-poligen Wicklungen: 
+ 
+Fall A – 1 oder 2 Versteifungsebenen 
+ 
+Die durchtränkbaren Versteifungsringe werden mit 3 Windungen (Pos. 31) ausgeführt und an      
+jeder Spule mit 2 Windungen angebunden. 
+Die innere Versteifungsebene wird nicht eingebunden. 
+ 
+Objektliste 
+/ BOM 
+Wicklungen mit 1 oder 2 Versteifungsebenen / 
+windings with one or two bracing layers 
+Pos. 31 
+Pos. 35 
+Pos. 19 
+ 
+Fall B – 3 Versteifungsebenen 
+Der äußere und der mittlere Versteifungsring wird mit 3 Windungen (Pos. 31) ausgeführt und 
+an jeder Spule mit 2 Windungen angebunden (Pos. 35). 
+",Siemens PD LD P MF-NMA Fertigungsanweisung: Einlegen und versteifen von HS-Formspulen-Ständerwicklungen in VPI-Ausführung. Vor dem Aufziehen des Ringes muss der Wickelkopf vorgerichtet werden. Versteifungssystem bei 2-poligen Wicklungen: 1-2 Versteifungsebenen oder 3 Versteifungsebenen.
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 22 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+Der innere 3. Versteifungsring (zum Blechpaket hin) wird mit 2 Windungen ausgeführt und an 
+jedem 3. Spulenschenkel mit 2 Windungen angebunden. 
+Die Versteifungen in der Bohrung werden nicht eingebunden. 
+ 
+ 
+ 
+              
+Objektliste 
+/ BOM 
+1. + 2. Versteifungsebene /  
+1st and 2nd bracing layer 
+3. Versteifungsebene /  
+3rd bracing layer 
+Pos. 31 
+ 
+ 
+Pos. 35 
+ 
+Pos. 19 
+ 
+6.3.3 
+Spulenversteifungen der Unterschicht 
+Die Versteifungen werden mit Hilfe eines Spreizeisens zwischen den Schenkel hinein ge-
+schoben (Abbildung 44). Dabei ist darauf zu achten, dass die Isolierung der Spulen nicht 
+beschädigt wird und die Versteifungen auf der Oberschicht aufliegen und mindestens halbe, 
+maximal die ganze Ringhöhe abdecken. 
+ 
+",Siemens PD LD P MF-NMA M TEC HV production instructions for winding flat wire in VPI configuration. The third bracing ring is executed with 2 turns and bound to each third coil leg with 2 turns. The bracing in the bore is not bound. The document includes an object list and notes on coil bracing of the lower layer.
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 23 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+ 
+Abbildung 44                                     
+6.3.4 
+Spulenversteifungen der Oberschicht 
+Versteifungen der Oberschicht sind nach Zeichnung/Objektliste einzubringen. 
+Die Versteifungen werden mit Hilfe eines Spanneisens zwischen den Schenkeln mit kräfti-
+gem Daumendruck (Abbildung 45) oder leichtem Hammerschlag hineingeschoben. Dabei 
+ist zu beachten, dass die Isolierung der Spulen nicht beschädigt wird. 
+ 
+ Zuerst werden alle Versteifungen und Füllungen zwischen den Phasenwechseln einge-
+bracht und dann der Reihe nach die Restlichen der Spulengruppe (Abbildung 46). 
+ 
+ Die Versteifungen der Oberschicht dürfen maximal 2 mm zur Läuferseite hin überstehen 
+und nicht auf der Unterschicht aufliegen. 
+ 
+   
+ 
+Abbildung 45                                              
+    Abbildung 46 
+ 
+6.4 
+Ausführung ohne Wicklungs-
+stützringe 
+Sind laut Zeichnung/Objektliste keine Wicklungs-
+stützringe vorgegeben, dann: 
+ 
+Wickelkopf auszurichten  
+","Siemens PD LD P MF-NMA M TEC HV manufacturing instructions for assembling and securing flat wire coil wraps with VPI execution, FA 30338-AD."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 24 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+ 
+ 
+Lage der Unterschichtversteifungen  
+mittels Schablone anzeichnen  
+ 
+Wickelkopf versteifen. Versteifungs 
+elemente müssen am Oberschenkel  
+aufliegen und müssen mindestens 2 mm,  
+jedoch maximal so weit überstehen,  
+dass der Abstand zum Blechpaket  
+(z.B.: ≥ 15mm nach Zeichnung/Objektliste)  
+eingehalten werden kann. 
+ 
+Die Lage der Oberschichtversteifungen ist  
+so zu wählen, dass die Versteifungselemente  
+nicht in den Radius der Spulennase  
+hinein stehen (Abbildung 47) 
+  
+ 
+ 
+ 
+ 
+ 
+            Abbildung 47 
+6.5 
+Füllung am Blechpaketende 
+Sofern in der Zeichnung/Objektliste vorgegeben, werden am Nutzahnende zwischen alle 
+Spulenschenkel der Oberschicht Füllungen eingebracht (Abbildung 48). 
+Füllung muss bündig mit Oberschicht abschließen und am Nutzahn anliegen. 
+ 
+ 
+Abbildung 48 
+6.6 
+ GFK-Wicklungsstützringe ohne PES – Filz 
+6.6.1 Wicklungsstützringe der Unterschicht anpassen und markieren 
+Die Stützringe werden am Wickelkopf vorsichtig aufgezogen und dabei provisorisch mit Di-
+stanzhölzern am Blechpaket abgestützt (Abbildung 49). 
+Es ist darauf zu achten, dass die Spulenschenkel der Unterschicht alle an den Stützringen 
+anliegen (Abbildung 50). Ist dies nicht der Fall muss der Wickelkopf nachgerichtet werden. 
+Die Stützringe der Unterschicht werden mit Stift angezeichnet und danach wieder gelöst 
+(Abbildung 51). 
+ 
+","Siemens PD LD P MF-NMA Fertigungsanweisung: Einlegen und versteifen von HS-Formspulen-Ständerwicklungen in VPI-Ausführung. Versteifungs-elemente müssen am Oberschenkel aufliegen und mindestens 2 mm, jedoch maximal so weit überstehen, dass der Abstand zum Blechpaket eingehalten werden kann."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 25 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+ Kann bei vorgegebenen Sitz der Stützringe (Zeichnung/Objektliste) der Wickel-
+kopfaußendurchmesser nicht eingehalten werden, so ist mindestens ein Abstand 
+von ≥ 15 mm bei ≤ 6,6 KV und  ≥ 25 mm bei > 6,6 KV zum Blechpaketaußendurch-
+messer einzuhalten. 
+ 
+   
+   
+ 
+Abbildung 49                       Abbildung 50                               Abbildung 51 
+6.6.2 Wicklungsstützringe versteifen 
+Zwischen zwei Versteifungsstücken muss eine Lage Filz bzw. Glasmaterial (Abbildung 52) 
+liegen. 
+Die Versteifungen müssen unter der angezeichneten Stützring - Position liegen.  
+Jede Versteifung der Unterschicht mit Einschlag (PES-Filz) ca. 1½-mal umwickeln und mit 
+Hilfe eines Spreizeisens an der markierten Stelle zwischen die Unterschicht-Stirnseiten ein-
+schieben (Abbildung 53). 
+Das Ende des Einschlags wird jedoch nicht unmittelbar an der Spulenversteifung abgeschnit-
+ten, sondern erst über den nächsten Spulenschenkel gezogen (Abbildung 54) und dann mit 
+der folgenden Spulenversteifung zwischen den Stirnseiten festgeklemmt (Abbildung 53). 
+Jede dritte Versteifung wird verlängert ausgeführt, so dass sie an der Oberschicht aufliegt 
+(Abbildung 55). 
+Diese Aufpolsterung mit dem Einschlag auf den Spulenschenkeln dient als Unterlage für den 
+Stützring. 
+ 
+   
+   
+ 
+","Siemens production instructions for winding flat wire coils on a stator. The document outlines the requirements for inserting and securing the coils, including the use of spacers and insulation material. The instructions also provide detailed diagrams and illustrations for the process."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 26 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+Abbildung 52                        Abbildung 53                                Abbildung 54                         
+ 
+ 
+Abbildung 55                                                                                       
+6.6.3 Wicklungsstützringe befestigen 
+Die Wicklungsstützringe werden mit Hilfe von provisorisch unterlegter Hostaphan-Folie auf 
+die Filzunterlage aufgeschoben und mit Distanzhölzern fest gespreizt (Abbildung 56). Da-
+nach wird die Hostaphan-Folie wieder vorsichtig entfernt (Abbildung 57). Die Wickelstütz-
+ringe müssen in der Mitte des Filzes und der Versteifungen aufliegen. Mit 6 Befestigungs-
+bunde, die gleichmäßig am Umfang verteilt sind, werden die Ringe an einer Spulenstirnseite 
+festgebunden, dreimal durchschlaufen und mit doppeltem Knoten binden (Abbildung 58). 
+ 
+   
+   
+ 
+Abbildung 56                          Abbildung 57                          Abbildung 58 
+6.6.4 Spulenversteifungen der Oberschicht 
+Lage der Versteifungen der Oberschicht (direkt über den Versteifungen der Unterschicht) 
+mittels Schablone anzeichnen. 
+Jede Versteifung der Oberschicht mit Einschlag (HM 693) ca. 1½-mal umwickeln.  
+","Siemens production instructions for assembling a coil. The text describes the process of inserting and securing flat wire spools with VPI execution, specifically the steps for attaching winding support rings and spool stiffeners to the upper layer of the coil."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 27 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+Zwischen zwei Versteifungsstücken muss eine Lage Hartmatte 693 liegen (Abbildung 59) 
+und an der markierten Stelle einschieben. 
+Das Einschieben erfolgt mit kräftigem Daumendruck (Abbildung 60) bzw. leichtem Ham-
+merschlag. 
+Zuerst werden alle Versteifungen und Füllungen zwischen den Phasenwechseln eingebracht 
+und dann der Reihe nach die Restlichen der Spulengruppe. 
+ 
+   
+ 
+Abbildung 59                                  Abbildung 60 
+7 
+Leitungsverlegung der Temperaturfühler 
+ Die Kennzeichnung der Fühler erfolgt nach Schaltbild. 
+ Bei „phasenungleichen“ Nuten erfolgt die Kennzeichnung nach der Phase des 
+Schenkels an dem der Fühler anliegt. Im Regelfall ist dies der Unterschenkel. 
+7.1 
+Standardausführung 
+Ist eine Temperaturüberwachung vorgegeben wird die Verlegung der Anschluss- und Er-
+dungsleitungen entsprechend der Zeichnung/Objektliste vorgenommen. 
+Die Temperaturfühlerleitung ist mit dem Versteifungsmaterial laut Objektliste am Ständer-
+blech bzw. Ständerdruckring zu sichern. Es ist darauf zu achten, dass die Temperaturfühler-
+leitung mittig zwischen den Spulenschenkeln fixiert ist (Abbildung 61). 
+Je nach Verlegung der Leitung muss der Schlauch des vorbereiteten Nutthermometers durch 
+Aufschieben eines bzw. weiterer Schläuche (Überlappung  ≥ 10 mm) verlängert werden. 
+Der Abführungsschlauch wird 50 mm mit eingebunden und am Abführungsende nach Zeich-
+nung/Objektliste gekennzeichnet. 
+Am Lochblech, das am Blechpaket angebracht ist, sind die Leitungen der Temperatursenso-
+ren auf der Innenseite zu verlegen und weitläufig (jedes 2. Loch) anzubinden (Abbildung 
+62). 
+Bei Lochblechsegmenten (z.B.: BG 63) ist der letzte Bund der Anschlussleitungen beim 2. 
+Loch vor Segmentende zu binden (Abbildung 63). 
+ 
+",Siemens PD LD P MF-NMA Fertigungsanweisung: Einlegen und versteifen von HS-Formspulen-Ständerwicklungen in VPI-Ausführung. Zwischen Versteifungsstücken liegt eine Hartmatte 693 und wird mit Daumendruck oder leichtem Hammer geschoben. Leitungsverlegung der Temperaturfühler nach Schaltbild oder Schenkelphase.
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 28 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+   
+   
+ 
+Abbildung 61                               Abbildung 62                               Abbildung 63 
+ 
+7.2 
+Kaltleiter ( KN-NAT… ) 
+Vor dem Schalten der Nutkaltleiter müssen diese vom Prüfer gemessen werden. Dann wer-
+den die Nutkaltleiter nach der Zeichnung/Objektliste geschaltet. 
+Danach wie unter 7.1. 
+7.3 
+Abgeschirmte Temperaturfühler 
+Die Anschlussleitungen werden am Steg gebunden und die Erdungsleitungen am Blechpaket  
+festgeschraubt (Abbildung 64). Die Ausführung erfolgt nach Zeichnung/Objektliste. 
+ 
+ 
+Abbildung 64 
+7.4 
+Stillstandsheizung 
+Ist der Abstand ≥ 15 mm zum Blechpaket nicht einzuhalten, so ist die Stillstandshei-
+zung auf die Innenseite des Lochbleches zu verlegen und zu binden um beim Einpres-
+sen Beschädigungen zu vermeiden.  
+Lage und Abführung der Heizbänder siehe Zeichnung/Objektliste. 
+","Siemens PD LD P MF-NMA Fertigungsanweisung for Einlegen und versteifen von HS-Formspulen-Ständerwicklungen in VPI-Ausführung. Includes instructions for Kaltleiter (KN-NAT), abgeschirmte Temperaturfühler, and stillstandsheizung."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 29 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+Die Heizbänder werden an den Stegen mit Band (siehe Zeichnung/Objektliste), jede 2 Boh-
+rung einmal durchschlaufen, festgebunden (Abbildung 65). 
+Letzter Bund der Abführung nach Zeichnung/Objektliste mit Zugentlastung (Abbildung 66). 
+Die PUR – Schlauchlänge ab den letzten Bund beträgt 50 mm (Abbildung 66). 
+Die Leitungen der Heizbänder werden aufgerollt und mit Gummiband umspannt. 
+   
+ 
+Abbildung 65                            Abbildung 66                                  
+ 
+ 
+ 
+ 
+ 
+  
+Mit Zugentlastung                                                 
+ 
+  
+7.5 
+Besonderheit bei Motoren ohne Lochblech bis ≤ 1,6 KV 
+Jede Temperaturfühlerleitung wird einmalig am anliegenden Unterschenkel angebunden und 
+danach mit Versteifungsmaterial laut Objektliste am Ständerblech bzw. Ständerdruckring ge-
+sichert. 
+Die Temperaturfühlerleitungen werden an jedem 5. Unterschenkel fixiert und an das Blech-
+paket gedrückt (Abbildung 67 u. 68). 
+Der letzte Bund der Temperaturfühlerleitungen wird am Unterschenkel gebunden und zu-
+sätzlich mit Versteifungsmaterial gesichert (Abbildung 67 u. 68). 
+ 
+","Siemens PD LD P MF-NMA Fertigungsanweisung: Einlegen und versteifen von HS-Formspulen-Ständerwicklungen in VPI-Ausführung. Heizbänder werden an Stegen mit Band festgebunden, letzter Bund mit Zugentlastung. Leitungen aufgerollt und mit Gummiband umspannt. Temperaturfühlerleitungen an jedem 5. Unterschenkel fixiert, letzter Bund gesichert."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 30 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+   
+   
+ 
+   Abbildung 67                                                 Abbildung 68 
+ 
+",Siemens PD LD P MF-NMA M TEC HV manufacturing instructions for inserting and tightening HS-form spool windings in VPI execution.
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 31 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+8 
+ 
+Zwischenprüfung der Ständerwicklung                      
+Spulenanfänge und Spulenenden ausrichten zum Zwischenprüfen. Den komplett versteiften 
+Ständer mit verlegten Thermofühlern und allen Unterlagen ins Prüffeld zum Zwischenprüfen 
+fahren lassen (Abbildung 69). 
+ 
+ 
+Abbildung 69 
+ 
+Während der Zwischenprüfung und der Entladezeit sind die Arbeitsmaterialien für die näch-
+sten Arbeitsschritte vorzubereiten (Filzstreifen, Beschleuniger, Schläuche, Biegeeisen, … ). 
+","Siemens PD LD P MF-NMA M TEC HV production instructions for winding flat wire in VPI configuration, FA 30338."
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 32 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+8 
+Änderungstabelle 
+ 
+Index 
+Änderung 
+Datum 
+AA 
+Übernahme in CADIM 
+16.03.2004 
+AB 
+- Vollständige Überarbeitung; siehe auch 11.1 und 11.2 
+- Trennung Einlegen und Schalten in unterschiedliche FA´s 
+12.10.2007 
+AC 
+Komplette Überarbeitung 
+11.10.2011 
+AD 
+6.3.2 Versteifungssystem bei 2 – poligen Wicklungen hinzu 
+05.01.2015 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+",Siemens PD LD P MF-NMA Fertigungsanweisung: Einlegen und versteifen von HS-Formspulen-Ständerwicklungen in VPI-Ausführung FA 30338.
+"Siemens 
+PD LD P MF-NMA  
+M TEC HV 
+Fertigungsanweisung 
+Einlegen und versteifen von HS-
+Formspulen-Ständerwicklungen 
+(Flachdraht) in VPI-Ausführung 
+FA 30338 - AD 
+  
+Blatt 33 von 33 
+ 
+Siemens AG 
+Nur für internen Gebrauch 
+NMA M TEC HV, K. Elsner; E. Oluri 
+ 
+9 
+Hiermit werden folgende Fertigungsanweisun-
+gen und Fertigungsergänzungen ungültig: 
+9.2 
+Fertigungsanweisungen: 
+ 
+FA 30338 C vom 20.10.2011 
+ 
+ 
+FA 30365 vom 16.06.2005  
+9.3 
+Fertigungsänderungsanweisungen: 
+FE A5E00696678A 
+ 
+FE A5E00909907A 
+ 
+FE 59967 
+ 
+FE 59980 
+ 
+A5E03907939A 
+ 
+ 
+",Siemens PD LD P MF-NMA M TEC HV production instruction for inserting and securing flat wire coil windings in VPI configuration.

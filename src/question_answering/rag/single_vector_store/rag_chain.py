@@ -4,7 +4,6 @@ from langchain_core.documents import Document
 from langchain_core.messages import HumanMessage
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableLambda, RunnablePassthrough
-from langchain_openai import AzureChatOpenAI
 from utils.base64_utils.base64_utils import *
 from utils.model_loading_and_prompting.llava import llava_call
 from rag_env import REFERENCE_QA
@@ -65,7 +64,7 @@ class MultimodalRAGChain:
         
         prompt = inputs['prompt']
         image = inputs.get('image', None)
-        ans = llava_call(prompt, self.model, self.tokenizer, device="cuda", image=image)
+        ans = llava_call(prompt, self.model, self.tokenizer, device="mps", image=image)
         return ans
     
 
@@ -106,10 +105,7 @@ class MultimodalRAGChain:
         Use this information from both text and image (if present) to provide an answer to the user question.\n
         Avoid expressions like: 'according to the text/image provided' and similar, and just answer the question directly."""
         
-        if type(self.model) == AzureChatOpenAI:
-            prompt_dict = self.azure_qa(data_dict, qa_prompt)
-        else:
-            prompt_dict = self.llava_qa(data_dict, qa_prompt)
+        prompt_dict = self.llava_qa(data_dict, qa_prompt)
             
         return prompt_dict
     

@@ -3,7 +3,6 @@ import os
 import pandas as pd
 from typing import List
 from data_summarization.context_summarization import TextSummarizer
-from langchain_openai import AzureChatOpenAI
 from question_answering.rag.separate_vector_stores.dual_rag_chain import DualMultimodalRAGChain
 from question_answering.rag.separate_vector_stores.dual_retrieval import DualClipRetriever
 from utils.azure_config import get_azure_config
@@ -33,21 +32,9 @@ class DualMultimodalRAGPipelineClip:
         
         config = get_azure_config()
         
-        if model_type in config:
-            print("Using Azure model for answer generation")
-            azure_llm_config = config[model_type]
-            self.model = AzureChatOpenAI(
-                openai_api_version=azure_llm_config["openai_api_version"],
-                azure_endpoint=azure_llm_config["openai_endpoint"],
-                azure_deployment=azure_llm_config["deployment_name"],
-                model=azure_llm_config["model_version"],
-                api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-                max_tokens=400)
-            self.tokenizer = None
-            
-        else:
-            print("Using LLaVA model for answer generation")
-            self.model, self.tokenizer = load_llava_model("llava-hf/llava-v1.6-mistral-7b-hf")
+       
+        print("Using LLaVA model for answer generation")
+        self.model, self.tokenizer = load_llava_model("llava-hf/llava-v1.6-mistral-7b-hf")
 
         self.text_summarizer = TextSummarizer(model_type="gpt4", cache_path=TEXT_SUMMARIES_CACHE_DIR)
         self.dual_retriever = DualClipRetriever(store_path=store_path,

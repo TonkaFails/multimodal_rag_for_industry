@@ -6,7 +6,6 @@ from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
 from langchain_experimental.open_clip import OpenCLIPEmbeddings
-from langchain_openai import AzureOpenAIEmbeddings
 from langchain.storage import LocalFileStore
 from utils.azure_config import get_azure_config
 from rag_env import IMAGES_DIR
@@ -33,24 +32,12 @@ class DualSummaryStoreAndRetriever:
         text_retriever (MultiVectorRetriever): Retriever that encommpasses both a vector store and a document store for text retrieval.
     """
     def __init__(self, embedding_model, store_path=None, model_id=None):
-        if embedding_model == 'openai':
-            print("Using text-embedding-3-small")
-            azure_embedding_config = get_azure_config()['text_embedding_3']
-            self.embeddings = AzureOpenAIEmbeddings(model=azure_embedding_config["model_version"],
-                                                    azure_endpoint=azure_embedding_config["openai_endpoint"],
-                                                    openai_api_version=azure_embedding_config["openai_api_version"],
-                                                    openai_api_key=os.getenv("AZURE_OPENAI_API_KEY_EMBEDDING"),
-                                                    chunk_size=64,
-                                                    show_progress_bar=True
-                                                    )
-        else:
-            print("Using BGE embeddings")
-            model_name = "BAAI/bge-m3"
-            model_kwargs = {"device": "cuda"}
-            encode_kwargs = {"normalize_embeddings": True, "batch_size": 1, "show_progress_bar":True}
-            self.embeddings = HuggingFaceBgeEmbeddings(
-                model_name=model_name, model_kwargs=model_kwargs, encode_kwargs=encode_kwargs
-                )
+       
+        print("Using BGE embeddings")
+        model_name = "BAAI/bge-m3"
+        model_kwargs = {"device": "mps"}
+        encode_kwargs = {"normalize_embeddings": True, "batch_size": 1, "show_progress_bar":True}
+        self.embeddings = HuggingFaceBgeEmbeddings(model_name=model_name, model_kwargs=model_kwargs, encode_kwargs=encode_kwargs)
         
         self.store_path = store_path
         img_vectorstore_dir = os.path.join(self.store_path, rf"image_only_{model_id}_vectorstore_{embedding_model}")
@@ -170,24 +157,12 @@ class DualClipRetriever:
                  images_dir=IMAGES_DIR):
         self.images_dir = images_dir
 
-        if text_embedding_model == 'openai':
-            print("Using openai embeddings")
-            azure_embedding_config = get_azure_config()['text_embedding_3']
-            self.embeddings = AzureOpenAIEmbeddings(model=azure_embedding_config["model_version"],
-                                                    azure_endpoint=azure_embedding_config["openai_endpoint"],
-                                                    openai_api_version=azure_embedding_config["openai_api_version"],
-                                                    openai_api_key=os.getenv("AZURE_OPENAI_API_KEY_EMBEDDING"),
-                                                    chunk_size=64,
-                                                    show_progress_bar=True
-                                                    )
-        else:
-            print("Using BGE embeddings")
-            model_name = "BAAI/bge-m3"
-            model_kwargs = {"device": "cuda"}
-            encode_kwargs = {"normalize_embeddings": True, "batch_size": 1, "show_progress_bar":True}
-            self.embeddings = HuggingFaceBgeEmbeddings(
-                model_name=model_name, model_kwargs=model_kwargs, encode_kwargs=encode_kwargs
-                )
+    
+        print("Using BGE embeddings")
+        model_name = "BAAI/bge-m3"
+        model_kwargs = {"device": "mps"}
+        encode_kwargs = {"normalize_embeddings": True, "batch_size": 1, "show_progress_bar":True}
+        self.embeddings = HuggingFaceBgeEmbeddings(model_name=model_name, model_kwargs=model_kwargs, encode_kwargs=encode_kwargs)
 
         self.store_path = store_path
         img_vectorstore_dir = os.path.join(self.store_path, rf"image_only_clip/image_only_vectorstore_clip")
